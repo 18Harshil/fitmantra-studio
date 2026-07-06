@@ -1,0 +1,2277 @@
+[
+  {
+    "text": " You",
+    "startMs": 419,
+    "endMs": 1060,
+    "timestampMs": 419,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 1060,
+    "endMs": 1120,
+    "timestampMs": 1060,
+    "confidence": 1.0
+  },
+  {
+    "text": " eating",
+    "startMs": 1120,
+    "endMs": 1320,
+    "timestampMs": 1120,
+    "confidence": 1.0
+  },
+  {
+    "text": " less",
+    "startMs": 1320,
+    "endMs": 1600,
+    "timestampMs": 1320,
+    "confidence": 1.0
+  },
+  {
+    "text": " than",
+    "startMs": 1600,
+    "endMs": 1860,
+    "timestampMs": 1600,
+    "confidence": 1.0
+  },
+  {
+    "text": " everyone",
+    "startMs": 1860,
+    "endMs": 2220,
+    "timestampMs": 1860,
+    "confidence": 1.0
+  },
+  {
+    "text": " around",
+    "startMs": 2220,
+    "endMs": 2520,
+    "timestampMs": 2220,
+    "confidence": 1.0
+  },
+  {
+    "text": " you,",
+    "startMs": 2520,
+    "endMs": 2900,
+    "timestampMs": 2520,
+    "confidence": 1.0
+  },
+  {
+    "text": " now",
+    "startMs": 3240,
+    "endMs": 3340,
+    "timestampMs": 3240,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 3340,
+    "endMs": 3600,
+    "timestampMs": 3340,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 3600,
+    "endMs": 3660,
+    "timestampMs": 3600,
+    "confidence": 1.0
+  },
+  {
+    "text": " tired",
+    "startMs": 3660,
+    "endMs": 3660,
+    "timestampMs": 3660,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 3660,
+    "endMs": 4360,
+    "timestampMs": 3660,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 4360,
+    "endMs": 4600,
+    "timestampMs": 4360,
+    "confidence": 1.0
+  },
+  {
+    "text": " weight",
+    "startMs": 4600,
+    "endMs": 4840,
+    "timestampMs": 4600,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 4840,
+    "endMs": 5160,
+    "timestampMs": 4840,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 5160,
+    "endMs": 5200,
+    "timestampMs": 5160,
+    "confidence": 1.0
+  },
+  {
+    "text": " moving",
+    "startMs": 5200,
+    "endMs": 5480,
+    "timestampMs": 5200,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 6080,
+    "endMs": 6400,
+    "timestampMs": 6080,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 6400,
+    "endMs": 7160,
+    "timestampMs": 6400,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 7160,
+    "endMs": 7580,
+    "timestampMs": 7160,
+    "confidence": 1.0
+  },
+  {
+    "text": " saying",
+    "startMs": 7580,
+    "endMs": 7580,
+    "timestampMs": 7580,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 7580,
+    "endMs": 7860,
+    "timestampMs": 7580,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 7860,
+    "endMs": 8320,
+    "timestampMs": 7860,
+    "confidence": 1.0
+  },
+  {
+    "text": " thyroid",
+    "startMs": 8320,
+    "endMs": 9040,
+    "timestampMs": 8320,
+    "confidence": 1.0
+  },
+  {
+    "text": " level",
+    "startMs": 9040,
+    "endMs": 9620,
+    "timestampMs": 9040,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 9620,
+    "endMs": 9900,
+    "timestampMs": 9620,
+    "confidence": 1.0
+  },
+  {
+    "text": " normal,",
+    "startMs": 9900,
+    "endMs": 10420,
+    "timestampMs": 9900,
+    "confidence": 1.0
+  },
+  {
+    "text": " TSH",
+    "startMs": 10840,
+    "endMs": 11280,
+    "timestampMs": 10840,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 11280,
+    "endMs": 11460,
+    "timestampMs": 11280,
+    "confidence": 1.0
+  },
+  {
+    "text": " normal,",
+    "startMs": 11460,
+    "endMs": 11780,
+    "timestampMs": 11460,
+    "confidence": 1.0
+  },
+  {
+    "text": " but",
+    "startMs": 12140,
+    "endMs": 12920,
+    "timestampMs": 12140,
+    "confidence": 1.0
+  },
+  {
+    "text": " here",
+    "startMs": 12920,
+    "endMs": 13180,
+    "timestampMs": 12920,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 13180,
+    "endMs": 13520,
+    "timestampMs": 13180,
+    "confidence": 1.0
+  },
+  {
+    "text": " what",
+    "startMs": 13520,
+    "endMs": 13740,
+    "timestampMs": 13520,
+    "confidence": 1.0
+  },
+  {
+    "text": " most",
+    "startMs": 13740,
+    "endMs": 14000,
+    "timestampMs": 13740,
+    "confidence": 1.0
+  },
+  {
+    "text": " people",
+    "startMs": 14000,
+    "endMs": 14320,
+    "timestampMs": 14000,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 14320,
+    "endMs": 14720,
+    "timestampMs": 14320,
+    "confidence": 1.0
+  },
+  {
+    "text": " honestly",
+    "startMs": 14720,
+    "endMs": 15220,
+    "timestampMs": 14720,
+    "confidence": 1.0
+  },
+  {
+    "text": " most",
+    "startMs": 15220,
+    "endMs": 15559,
+    "timestampMs": 15220,
+    "confidence": 1.0
+  },
+  {
+    "text": " doctors",
+    "startMs": 15559,
+    "endMs": 15980,
+    "timestampMs": 15559,
+    "confidence": 1.0
+  },
+  {
+    "text": " do",
+    "startMs": 15980,
+    "endMs": 16380,
+    "timestampMs": 15980,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 16380,
+    "endMs": 16540,
+    "timestampMs": 16380,
+    "confidence": 1.0
+  },
+  {
+    "text": " even",
+    "startMs": 16540,
+    "endMs": 16740,
+    "timestampMs": 16540,
+    "confidence": 1.0
+  },
+  {
+    "text": " look",
+    "startMs": 16740,
+    "endMs": 17040,
+    "timestampMs": 16740,
+    "confidence": 1.0
+  },
+  {
+    "text": " at,",
+    "startMs": 17040,
+    "endMs": 17300,
+    "timestampMs": 17040,
+    "confidence": 1.0
+  },
+  {
+    "text": " this",
+    "startMs": 17620,
+    "endMs": 17900,
+    "timestampMs": 17620,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 17900,
+    "endMs": 18020,
+    "timestampMs": 17900,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
+    "startMs": 18020,
+    "endMs": 18120,
+    "timestampMs": 18020,
+    "confidence": 1.0
+  },
+  {
+    "text": " condition",
+    "startMs": 18120,
+    "endMs": 18440,
+    "timestampMs": 18120,
+    "confidence": 1.0
+  },
+  {
+    "text": " called",
+    "startMs": 18440,
+    "endMs": 18820,
+    "timestampMs": 18440,
+    "confidence": 1.0
+  },
+  {
+    "text": " as",
+    "startMs": 18820,
+    "endMs": 19100,
+    "timestampMs": 18820,
+    "confidence": 1.0
+  },
+  {
+    "text": " Hashimoto's",
+    "startMs": 19100,
+    "endMs": 20300,
+    "timestampMs": 19100,
+    "confidence": 1.0
+  },
+  {
+    "text": " Thyroiditis,",
+    "startMs": 20300,
+    "endMs": 21040,
+    "timestampMs": 20300,
+    "confidence": 1.0
+  },
+  {
+    "text": " in",
+    "startMs": 21280,
+    "endMs": 21780,
+    "timestampMs": 21280,
+    "confidence": 1.0
+  },
+  {
+    "text": " which",
+    "startMs": 21780,
+    "endMs": 21940,
+    "timestampMs": 21780,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 21940,
+    "endMs": 22380,
+    "timestampMs": 21940,
+    "confidence": 1.0
+  },
+  {
+    "text": " immune",
+    "startMs": 22380,
+    "endMs": 22720,
+    "timestampMs": 22380,
+    "confidence": 1.0
+  },
+  {
+    "text": " system",
+    "startMs": 22720,
+    "endMs": 23240,
+    "timestampMs": 22720,
+    "confidence": 1.0
+  },
+  {
+    "text": " feels",
+    "startMs": 23240,
+    "endMs": 23680,
+    "timestampMs": 23240,
+    "confidence": 1.0
+  },
+  {
+    "text": " like",
+    "startMs": 23680,
+    "endMs": 24060,
+    "timestampMs": 23680,
+    "confidence": 1.0
+  },
+  {
+    "text": " attacking",
+    "startMs": 24060,
+    "endMs": 24820,
+    "timestampMs": 24060,
+    "confidence": 1.0
+  },
+  {
+    "text": " yourself,",
+    "startMs": 24820,
+    "endMs": 24820,
+    "timestampMs": 24820,
+    "confidence": 1.0
+  },
+  {
+    "text": " slowly,",
+    "startMs": 24820,
+    "endMs": 26000,
+    "timestampMs": 24820,
+    "confidence": 1.0
+  },
+  {
+    "text": " quietly",
+    "startMs": 26280,
+    "endMs": 26600,
+    "timestampMs": 26280,
+    "confidence": 1.0
+  },
+  {
+    "text": " for",
+    "startMs": 26600,
+    "endMs": 26780,
+    "timestampMs": 26600,
+    "confidence": 1.0
+  },
+  {
+    "text": " years",
+    "startMs": 26780,
+    "endMs": 27080,
+    "timestampMs": 26780,
+    "confidence": 1.0
+  },
+  {
+    "text": " sometimes,",
+    "startMs": 27080,
+    "endMs": 27740,
+    "timestampMs": 27080,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 28380,
+    "endMs": 28620,
+    "timestampMs": 28380,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 28620,
+    "endMs": 29140,
+    "timestampMs": 28620,
+    "confidence": 1.0
+  },
+  {
+    "text": " TSH,",
+    "startMs": 29140,
+    "endMs": 29640,
+    "timestampMs": 29140,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 29940,
+    "endMs": 30120,
+    "timestampMs": 29940,
+    "confidence": 1.0
+  },
+  {
+    "text": " number,",
+    "startMs": 30120,
+    "endMs": 30420,
+    "timestampMs": 30120,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 30420,
+    "endMs": 30640,
+    "timestampMs": 30420,
+    "confidence": 1.0
+  },
+  {
+    "text": " they",
+    "startMs": 30640,
+    "endMs": 30880,
+    "timestampMs": 30640,
+    "confidence": 1.0
+  },
+  {
+    "text": " look",
+    "startMs": 30880,
+    "endMs": 31060,
+    "timestampMs": 30880,
+    "confidence": 1.0
+  },
+  {
+    "text": " at",
+    "startMs": 31060,
+    "endMs": 31460,
+    "timestampMs": 31060,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 31460,
+    "endMs": 31640,
+    "timestampMs": 31460,
+    "confidence": 1.0
+  },
+  {
+    "text": " completely",
+    "startMs": 31640,
+    "endMs": 32000,
+    "timestampMs": 31640,
+    "confidence": 1.0
+  },
+  {
+    "text": " normal,",
+    "startMs": 32000,
+    "endMs": 32500,
+    "timestampMs": 32000,
+    "confidence": 1.0
+  },
+  {
+    "text": " while",
+    "startMs": 33360,
+    "endMs": 33700,
+    "timestampMs": 33360,
+    "confidence": 1.0
+  },
+  {
+    "text": " underneath",
+    "startMs": 33700,
+    "endMs": 34560,
+    "timestampMs": 33700,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 34560,
+    "endMs": 35160,
+    "timestampMs": 34560,
+    "confidence": 1.0
+  },
+  {
+    "text": " inflammation",
+    "startMs": 35160,
+    "endMs": 35700,
+    "timestampMs": 35160,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 35700,
+    "endMs": 36020,
+    "timestampMs": 35700,
+    "confidence": 1.0
+  },
+  {
+    "text": " destroying",
+    "startMs": 36020,
+    "endMs": 36580,
+    "timestampMs": 36020,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 36580,
+    "endMs": 36860,
+    "timestampMs": 36580,
+    "confidence": 1.0
+  },
+  {
+    "text": " thyroid",
+    "startMs": 36860,
+    "endMs": 37220,
+    "timestampMs": 36860,
+    "confidence": 1.0
+  },
+  {
+    "text": " tissue,",
+    "startMs": 37220,
+    "endMs": 37740,
+    "timestampMs": 37220,
+    "confidence": 1.0
+  },
+  {
+    "text": " so",
+    "startMs": 38360,
+    "endMs": 38540,
+    "timestampMs": 38360,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 38540,
+    "endMs": 39100,
+    "timestampMs": 38540,
+    "confidence": 1.0
+  },
+  {
+    "text": " metabolism",
+    "startMs": 39100,
+    "endMs": 40000,
+    "timestampMs": 39100,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 40000,
+    "endMs": 40500,
+    "timestampMs": 40000,
+    "confidence": 1.0
+  },
+  {
+    "text": " getting",
+    "startMs": 40500,
+    "endMs": 40680,
+    "timestampMs": 40500,
+    "confidence": 1.0
+  },
+  {
+    "text": " increased,",
+    "startMs": 40680,
+    "endMs": 41320,
+    "timestampMs": 40680,
+    "confidence": 1.0
+  },
+  {
+    "text": " this",
+    "startMs": 41360,
+    "endMs": 42320,
+    "timestampMs": 41360,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 42320,
+    "endMs": 42500,
+    "timestampMs": 42320,
+    "confidence": 1.0
+  },
+  {
+    "text": " why",
+    "startMs": 42500,
+    "endMs": 43100,
+    "timestampMs": 42500,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 43100,
+    "endMs": 43300,
+    "timestampMs": 43100,
+    "confidence": 1.0
+  },
+  {
+    "text": " cannot",
+    "startMs": 43300,
+    "endMs": 43580,
+    "timestampMs": 43300,
+    "confidence": 1.0
+  },
+  {
+    "text": " lose",
+    "startMs": 43580,
+    "endMs": 43880,
+    "timestampMs": 43580,
+    "confidence": 1.0
+  },
+  {
+    "text": " weight,",
+    "startMs": 43880,
+    "endMs": 44300,
+    "timestampMs": 43880,
+    "confidence": 1.0
+  },
+  {
+    "text": " this",
+    "startMs": 44920,
+    "endMs": 45020,
+    "timestampMs": 44920,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 45020,
+    "endMs": 45340,
+    "timestampMs": 45020,
+    "confidence": 1.0
+  },
+  {
+    "text": " why",
+    "startMs": 45340,
+    "endMs": 46140,
+    "timestampMs": 45340,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 46140,
+    "endMs": 46720,
+    "timestampMs": 46140,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 46720,
+    "endMs": 46920,
+    "timestampMs": 46720,
+    "confidence": 1.0
+  },
+  {
+    "text": " exhausted",
+    "startMs": 46920,
+    "endMs": 47740,
+    "timestampMs": 46920,
+    "confidence": 1.0
+  },
+  {
+    "text": " by",
+    "startMs": 47740,
+    "endMs": 48500,
+    "timestampMs": 47740,
+    "confidence": 1.0
+  },
+  {
+    "text": " noon,",
+    "startMs": 48500,
+    "endMs": 48800,
+    "timestampMs": 48500,
+    "confidence": 1.0
+  },
+  {
+    "text": " this",
+    "startMs": 49320,
+    "endMs": 49720,
+    "timestampMs": 49320,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 49720,
+    "endMs": 50160,
+    "timestampMs": 49720,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 50160,
+    "endMs": 50880,
+    "timestampMs": 50160,
+    "confidence": 1.0
+  },
+  {
+    "text": " hair,",
+    "startMs": 50880,
+    "endMs": 51280,
+    "timestampMs": 50880,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 52540,
+    "endMs": 53020,
+    "timestampMs": 52540,
+    "confidence": 1.0
+  },
+  {
+    "text": " skin",
+    "startMs": 53020,
+    "endMs": 53420,
+    "timestampMs": 53020,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 53420,
+    "endMs": 53640,
+    "timestampMs": 53420,
+    "confidence": 1.0
+  },
+  {
+    "text": " dry,",
+    "startMs": 53640,
+    "endMs": 53720,
+    "timestampMs": 53640,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 54420,
+    "endMs": 54580,
+    "timestampMs": 54420,
+    "confidence": 1.0
+  },
+  {
+    "text": " mood",
+    "startMs": 54580,
+    "endMs": 54800,
+    "timestampMs": 54580,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 54800,
+    "endMs": 55120,
+    "timestampMs": 54800,
+    "confidence": 1.0
+  },
+  {
+    "text": " getting",
+    "startMs": 55120,
+    "endMs": 55360,
+    "timestampMs": 55120,
+    "confidence": 1.0
+  },
+  {
+    "text": " reduced,",
+    "startMs": 55360,
+    "endMs": 55360,
+    "timestampMs": 55360,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 55360,
+    "endMs": 56340,
+    "timestampMs": 55360,
+    "confidence": 1.0
+  },
+  {
+    "text": " this",
+    "startMs": 56340,
+    "endMs": 56540,
+    "timestampMs": 56340,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 56540,
+    "endMs": 56740,
+    "timestampMs": 56540,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 56740,
+    "endMs": 57060,
+    "timestampMs": 56740,
+    "confidence": 1.0
+  },
+  {
+    "text": " in",
+    "startMs": 57060,
+    "endMs": 57280,
+    "timestampMs": 57060,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 57280,
+    "endMs": 57420,
+    "timestampMs": 57280,
+    "confidence": 1.0
+  },
+  {
+    "text": " head,",
+    "startMs": 57420,
+    "endMs": 57700,
+    "timestampMs": 57420,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 57800,
+    "endMs": 57900,
+    "timestampMs": 57800,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 57900,
+    "endMs": 58040,
+    "timestampMs": 57900,
+    "confidence": 1.0
+  },
+  {
+    "text": " in",
+    "startMs": 58040,
+    "endMs": 58160,
+    "timestampMs": 58040,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 58160,
+    "endMs": 58300,
+    "timestampMs": 58160,
+    "confidence": 1.0
+  },
+  {
+    "text": " immune",
+    "startMs": 58300,
+    "endMs": 58520,
+    "timestampMs": 58300,
+    "confidence": 1.0
+  },
+  {
+    "text": " system,",
+    "startMs": 58520,
+    "endMs": 59040,
+    "timestampMs": 58520,
+    "confidence": 1.0
+  },
+  {
+    "text": " Thyroid",
+    "startMs": 59860,
+    "endMs": 60380,
+    "timestampMs": 59860,
+    "confidence": 1.0
+  },
+  {
+    "text": " medication,",
+    "startMs": 60380,
+    "endMs": 60980,
+    "timestampMs": 60380,
+    "confidence": 1.0
+  },
+  {
+    "text": " of",
+    "startMs": 61480,
+    "endMs": 61560,
+    "timestampMs": 61480,
+    "confidence": 1.0
+  },
+  {
+    "text": " course",
+    "startMs": 61560,
+    "endMs": 61760,
+    "timestampMs": 61560,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 61760,
+    "endMs": 61940,
+    "timestampMs": 61760,
+    "confidence": 1.0
+  },
+  {
+    "text": " manages",
+    "startMs": 61940,
+    "endMs": 62280,
+    "timestampMs": 61940,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 62280,
+    "endMs": 62500,
+    "timestampMs": 62280,
+    "confidence": 1.0
+  },
+  {
+    "text": " hormone",
+    "startMs": 62500,
+    "endMs": 62700,
+    "timestampMs": 62500,
+    "confidence": 1.0
+  },
+  {
+    "text": " level,",
+    "startMs": 62700,
+    "endMs": 63080,
+    "timestampMs": 62700,
+    "confidence": 1.0
+  },
+  {
+    "text": " but",
+    "startMs": 63599,
+    "endMs": 63860,
+    "timestampMs": 63599,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 63860,
+    "endMs": 64019,
+    "timestampMs": 63860,
+    "confidence": 1.0
+  },
+  {
+    "text": " does",
+    "startMs": 64019,
+    "endMs": 64220,
+    "timestampMs": 64019,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 64220,
+    "endMs": 64400,
+    "timestampMs": 64220,
+    "confidence": 1.0
+  },
+  {
+    "text": " address",
+    "startMs": 64400,
+    "endMs": 64800,
+    "timestampMs": 64400,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 64800,
+    "endMs": 65100,
+    "timestampMs": 64800,
+    "confidence": 1.0
+  },
+  {
+    "text": " inflammation,",
+    "startMs": 65100,
+    "endMs": 65840,
+    "timestampMs": 65100,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 66400,
+    "endMs": 66560,
+    "timestampMs": 66400,
+    "confidence": 1.0
+  },
+  {
+    "text": " does",
+    "startMs": 66560,
+    "endMs": 66740,
+    "timestampMs": 66560,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 66740,
+    "endMs": 66960,
+    "timestampMs": 66740,
+    "confidence": 1.0
+  },
+  {
+    "text": " fix",
+    "startMs": 66960,
+    "endMs": 67240,
+    "timestampMs": 66960,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 67240,
+    "endMs": 67420,
+    "timestampMs": 67240,
+    "confidence": 1.0
+  },
+  {
+    "text": " immune",
+    "startMs": 67420,
+    "endMs": 67580,
+    "timestampMs": 67420,
+    "confidence": 1.0
+  },
+  {
+    "text": " trigger,",
+    "startMs": 67580,
+    "endMs": 68020,
+    "timestampMs": 67580,
+    "confidence": 1.0
+  },
+  {
+    "text": " so",
+    "startMs": 69220,
+    "endMs": 69400,
+    "timestampMs": 69220,
+    "confidence": 1.0
+  },
+  {
+    "text": " however",
+    "startMs": 69400,
+    "endMs": 69860,
+    "timestampMs": 69400,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 69860,
+    "endMs": 70200,
+    "timestampMs": 69860,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 70200,
+    "endMs": 70360,
+    "timestampMs": 70200,
+    "confidence": 1.0
+  },
+  {
+    "text": " taking",
+    "startMs": 70360,
+    "endMs": 70460,
+    "timestampMs": 70360,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 70460,
+    "endMs": 70620,
+    "timestampMs": 70460,
+    "confidence": 1.0
+  },
+  {
+    "text": " every",
+    "startMs": 70620,
+    "endMs": 70900,
+    "timestampMs": 70620,
+    "confidence": 1.0
+  },
+  {
+    "text": " morning,",
+    "startMs": 70900,
+    "endMs": 71180,
+    "timestampMs": 70900,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 71640,
+    "endMs": 71860,
+    "timestampMs": 71640,
+    "confidence": 1.0
+  },
+  {
+    "text": " still",
+    "startMs": 71860,
+    "endMs": 72360,
+    "timestampMs": 71860,
+    "confidence": 1.0
+  },
+  {
+    "text": " cannot",
+    "startMs": 72360,
+    "endMs": 72560,
+    "timestampMs": 72360,
+    "confidence": 1.0
+  },
+  {
+    "text": " lose",
+    "startMs": 72560,
+    "endMs": 73060,
+    "timestampMs": 72560,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 73060,
+    "endMs": 73280,
+    "timestampMs": 73060,
+    "confidence": 1.0
+  },
+  {
+    "text": " weight",
+    "startMs": 73280,
+    "endMs": 73680,
+    "timestampMs": 73280,
+    "confidence": 1.0
+  },
+  {
+    "text": " because",
+    "startMs": 73680,
+    "endMs": 74260,
+    "timestampMs": 73680,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 74260,
+    "endMs": 74520,
+    "timestampMs": 74260,
+    "confidence": 1.0
+  },
+  {
+    "text": " fire",
+    "startMs": 74520,
+    "endMs": 74900,
+    "timestampMs": 74520,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 74900,
+    "endMs": 75120,
+    "timestampMs": 74900,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 75120,
+    "endMs": 75240,
+    "timestampMs": 75120,
+    "confidence": 1.0
+  },
+  {
+    "text": " still",
+    "startMs": 75240,
+    "endMs": 75520,
+    "timestampMs": 75240,
+    "confidence": 1.0
+  },
+  {
+    "text": " burning",
+    "startMs": 75520,
+    "endMs": 75960,
+    "timestampMs": 75520,
+    "confidence": 1.0
+  },
+  {
+    "text": " inside,",
+    "startMs": 75960,
+    "endMs": 76700,
+    "timestampMs": 75960,
+    "confidence": 1.0
+  },
+  {
+    "text": " at",
+    "startMs": 77060,
+    "endMs": 77400,
+    "timestampMs": 77060,
+    "confidence": 1.0
+  },
+  {
+    "text": " FitMantra,",
+    "startMs": 77400,
+    "endMs": 78020,
+    "timestampMs": 77400,
+    "confidence": 1.0
+  },
+  {
+    "text": " what",
+    "startMs": 78360,
+    "endMs": 78920,
+    "timestampMs": 78360,
+    "confidence": 1.0
+  },
+  {
+    "text": " we",
+    "startMs": 78920,
+    "endMs": 79180,
+    "timestampMs": 78920,
+    "confidence": 1.0
+  },
+  {
+    "text": " do",
+    "startMs": 79180,
+    "endMs": 79360,
+    "timestampMs": 79180,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 79360,
+    "endMs": 79640,
+    "timestampMs": 79360,
+    "confidence": 1.0
+  },
+  {
+    "text": " we",
+    "startMs": 79640,
+    "endMs": 79800,
+    "timestampMs": 79640,
+    "confidence": 1.0
+  },
+  {
+    "text": " go",
+    "startMs": 79800,
+    "endMs": 80040,
+    "timestampMs": 79800,
+    "confidence": 1.0
+  },
+  {
+    "text": " after",
+    "startMs": 80040,
+    "endMs": 80340,
+    "timestampMs": 80040,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 80340,
+    "endMs": 80500,
+    "timestampMs": 80340,
+    "confidence": 1.0
+  },
+  {
+    "text": " fire,",
+    "startMs": 80500,
+    "endMs": 80920,
+    "timestampMs": 80500,
+    "confidence": 1.0
+  },
+  {
+    "text": " specific",
+    "startMs": 81600,
+    "endMs": 81960,
+    "timestampMs": 81600,
+    "confidence": 1.0
+  },
+  {
+    "text": " dietary",
+    "startMs": 81960,
+    "endMs": 82440,
+    "timestampMs": 81960,
+    "confidence": 1.0
+  },
+  {
+    "text": " protocols,",
+    "startMs": 82440,
+    "endMs": 83340,
+    "timestampMs": 82440,
+    "confidence": 1.0
+  },
+  {
+    "text": " which",
+    "startMs": 83600,
+    "endMs": 83640,
+    "timestampMs": 83600,
+    "confidence": 1.0
+  },
+  {
+    "text": " reverse",
+    "startMs": 83640,
+    "endMs": 83780,
+    "timestampMs": 83640,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 83780,
+    "endMs": 83920,
+    "timestampMs": 83780,
+    "confidence": 1.0
+  },
+  {
+    "text": " thyroid",
+    "startMs": 83920,
+    "endMs": 84340,
+    "timestampMs": 83920,
+    "confidence": 1.0
+  },
+  {
+    "text": " antibodies,",
+    "startMs": 84340,
+    "endMs": 85000,
+    "timestampMs": 84340,
+    "confidence": 1.0
+  },
+  {
+    "text": " anti",
+    "startMs": 86240,
+    "endMs": 86780,
+    "timestampMs": 86240,
+    "confidence": 1.0
+  },
+  {
+    "text": " -inflammatory",
+    "startMs": 86780,
+    "endMs": 87420,
+    "timestampMs": 86780,
+    "confidence": 1.0
+  },
+  {
+    "text": " nutrition,",
+    "startMs": 87420,
+    "endMs": 87920,
+    "timestampMs": 87420,
+    "confidence": 1.0
+  },
+  {
+    "text": " which",
+    "startMs": 88240,
+    "endMs": 88340,
+    "timestampMs": 88240,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 88340,
+    "endMs": 88560,
+    "timestampMs": 88340,
+    "confidence": 1.0
+  },
+  {
+    "text": " immune",
+    "startMs": 88560,
+    "endMs": 88940,
+    "timestampMs": 88560,
+    "confidence": 1.0
+  },
+  {
+    "text": " attack",
+    "startMs": 88940,
+    "endMs": 89320,
+    "timestampMs": 88940,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 89320,
+    "endMs": 89620,
+    "timestampMs": 89320,
+    "confidence": 1.0
+  },
+  {
+    "text": " correct,",
+    "startMs": 89620,
+    "endMs": 90120,
+    "timestampMs": 89620,
+    "confidence": 1.0
+  },
+  {
+    "text": " gut",
+    "startMs": 90600,
+    "endMs": 90880,
+    "timestampMs": 90600,
+    "confidence": 1.0
+  },
+  {
+    "text": " healing",
+    "startMs": 90880,
+    "endMs": 91160,
+    "timestampMs": 90880,
+    "confidence": 1.0
+  },
+  {
+    "text": " because",
+    "startMs": 91160,
+    "endMs": 91680,
+    "timestampMs": 91160,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 91680,
+    "endMs": 92480,
+    "timestampMs": 91680,
+    "confidence": 1.0
+  },
+  {
+    "text": " immunity",
+    "startMs": 92480,
+    "endMs": 93040,
+    "timestampMs": 92480,
+    "confidence": 1.0
+  },
+  {
+    "text": " depends",
+    "startMs": 93040,
+    "endMs": 93440,
+    "timestampMs": 93040,
+    "confidence": 1.0
+  },
+  {
+    "text": " on",
+    "startMs": 93440,
+    "endMs": 93860,
+    "timestampMs": 93440,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
+    "startMs": 93860,
+    "endMs": 94060,
+    "timestampMs": 93860,
+    "confidence": 1.0
+  },
+  {
+    "text": " bacteria",
+    "startMs": 94060,
+    "endMs": 94420,
+    "timestampMs": 94060,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 94420,
+    "endMs": 94740,
+    "timestampMs": 94420,
+    "confidence": 1.0
+  },
+  {
+    "text": " lives",
+    "startMs": 94740,
+    "endMs": 95100,
+    "timestampMs": 94740,
+    "confidence": 1.0
+  },
+  {
+    "text": " in",
+    "startMs": 95100,
+    "endMs": 95300,
+    "timestampMs": 95100,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 95300,
+    "endMs": 95440,
+    "timestampMs": 95300,
+    "confidence": 1.0
+  },
+  {
+    "text": " gut,",
+    "startMs": 95440,
+    "endMs": 95680,
+    "timestampMs": 95440,
+    "confidence": 1.0
+  },
+  {
+    "text": " I",
+    "startMs": 96120,
+    "endMs": 96220,
+    "timestampMs": 96120,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 96220,
+    "endMs": 96420,
+    "timestampMs": 96220,
+    "confidence": 1.0
+  },
+  {
+    "text": " patients",
+    "startMs": 96420,
+    "endMs": 96820,
+    "timestampMs": 96420,
+    "confidence": 1.0
+  },
+  {
+    "text": " with",
+    "startMs": 96820,
+    "endMs": 97120,
+    "timestampMs": 96820,
+    "confidence": 1.0
+  },
+  {
+    "text": " Hashimoto's,",
+    "startMs": 97120,
+    "endMs": 98100,
+    "timestampMs": 97120,
+    "confidence": 1.0
+  },
+  {
+    "text": " who",
+    "startMs": 98300,
+    "endMs": 98360,
+    "timestampMs": 98300,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 98360,
+    "endMs": 98660,
+    "timestampMs": 98360,
+    "confidence": 1.0
+  },
+  {
+    "text": " tremendous",
+    "startMs": 98660,
+    "endMs": 99100,
+    "timestampMs": 98660,
+    "confidence": 1.0
+  },
+  {
+    "text": " weight",
+    "startMs": 99100,
+    "endMs": 99560,
+    "timestampMs": 99100,
+    "confidence": 1.0
+  },
+  {
+    "text": " lose,",
+    "startMs": 99560,
+    "endMs": 99880,
+    "timestampMs": 99560,
+    "confidence": 1.0
+  },
+  {
+    "text": " I",
+    "startMs": 100000,
+    "endMs": 100520,
+    "timestampMs": 100000,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 100520,
+    "endMs": 100660,
+    "timestampMs": 100520,
+    "confidence": 1.0
+  },
+  {
+    "text": " seen",
+    "startMs": 100660,
+    "endMs": 100820,
+    "timestampMs": 100660,
+    "confidence": 1.0
+  },
+  {
+    "text": " antibodies",
+    "startMs": 100820,
+    "endMs": 101560,
+    "timestampMs": 100820,
+    "confidence": 1.0
+  },
+  {
+    "text": " dropping",
+    "startMs": 101560,
+    "endMs": 102020,
+    "timestampMs": 101560,
+    "confidence": 1.0
+  },
+  {
+    "text": " down",
+    "startMs": 102020,
+    "endMs": 102320,
+    "timestampMs": 102020,
+    "confidence": 1.0
+  },
+  {
+    "text": " significantly",
+    "startMs": 102320,
+    "endMs": 103120,
+    "timestampMs": 102320,
+    "confidence": 1.0
+  },
+  {
+    "text": " through",
+    "startMs": 103120,
+    "endMs": 103640,
+    "timestampMs": 103120,
+    "confidence": 1.0
+  },
+  {
+    "text": " diet,",
+    "startMs": 103640,
+    "endMs": 103960,
+    "timestampMs": 103640,
+    "confidence": 1.0
+  },
+  {
+    "text": " I",
+    "startMs": 104900,
+    "endMs": 104900,
+    "timestampMs": 104900,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 104900,
+    "endMs": 105000,
+    "timestampMs": 104900,
+    "confidence": 1.0
+  },
+  {
+    "text": " seen",
+    "startMs": 105000,
+    "endMs": 105160,
+    "timestampMs": 105000,
+    "confidence": 1.0
+  },
+  {
+    "text": " energy",
+    "startMs": 105160,
+    "endMs": 105540,
+    "timestampMs": 105160,
+    "confidence": 1.0
+  },
+  {
+    "text": " coming",
+    "startMs": 105540,
+    "endMs": 105840,
+    "timestampMs": 105540,
+    "confidence": 1.0
+  },
+  {
+    "text": " back,",
+    "startMs": 105840,
+    "endMs": 106440,
+    "timestampMs": 105840,
+    "confidence": 1.0
+  },
+  {
+    "text": " hair",
+    "startMs": 106800,
+    "endMs": 106940,
+    "timestampMs": 106800,
+    "confidence": 1.0
+  },
+  {
+    "text": " stops",
+    "startMs": 106940,
+    "endMs": 107160,
+    "timestampMs": 106940,
+    "confidence": 1.0
+  },
+  {
+    "text": " falling,",
+    "startMs": 107160,
+    "endMs": 107620,
+    "timestampMs": 107160,
+    "confidence": 1.0
+  },
+  {
+    "text": " brain",
+    "startMs": 108300,
+    "endMs": 108460,
+    "timestampMs": 108300,
+    "confidence": 1.0
+  },
+  {
+    "text": " fog",
+    "startMs": 108460,
+    "endMs": 108720,
+    "timestampMs": 108460,
+    "confidence": 1.0
+  },
+  {
+    "text": " gone,",
+    "startMs": 108720,
+    "endMs": 109840,
+    "timestampMs": 108720,
+    "confidence": 1.0
+  },
+  {
+    "text": " because",
+    "startMs": 110140,
+    "endMs": 110400,
+    "timestampMs": 110140,
+    "confidence": 1.0
+  },
+  {
+    "text": " we",
+    "startMs": 110400,
+    "endMs": 111240,
+    "timestampMs": 110400,
+    "confidence": 1.0
+  },
+  {
+    "text": " do",
+    "startMs": 111240,
+    "endMs": 111360,
+    "timestampMs": 111240,
+    "confidence": 1.0
+  },
+  {
+    "text": " not",
+    "startMs": 111360,
+    "endMs": 111460,
+    "timestampMs": 111360,
+    "confidence": 1.0
+  },
+  {
+    "text": " give",
+    "startMs": 111460,
+    "endMs": 111580,
+    "timestampMs": 111460,
+    "confidence": 1.0
+  },
+  {
+    "text": " them",
+    "startMs": 111580,
+    "endMs": 111740,
+    "timestampMs": 111580,
+    "confidence": 1.0
+  },
+  {
+    "text": " magic",
+    "startMs": 111740,
+    "endMs": 112000,
+    "timestampMs": 111740,
+    "confidence": 1.0
+  },
+  {
+    "text": " diet,",
+    "startMs": 112000,
+    "endMs": 112260,
+    "timestampMs": 112000,
+    "confidence": 1.0
+  },
+  {
+    "text": " because",
+    "startMs": 112500,
+    "endMs": 112740,
+    "timestampMs": 112500,
+    "confidence": 1.0
+  },
+  {
+    "text": " we",
+    "startMs": 112740,
+    "endMs": 112960,
+    "timestampMs": 112740,
+    "confidence": 1.0
+  },
+  {
+    "text": " finally",
+    "startMs": 112960,
+    "endMs": 113260,
+    "timestampMs": 112960,
+    "confidence": 1.0
+  },
+  {
+    "text": " address",
+    "startMs": 113260,
+    "endMs": 113700,
+    "timestampMs": 113260,
+    "confidence": 1.0
+  },
+  {
+    "text": " what",
+    "startMs": 113700,
+    "endMs": 114160,
+    "timestampMs": 113700,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 114160,
+    "endMs": 114300,
+    "timestampMs": 114160,
+    "confidence": 1.0
+  },
+  {
+    "text": " actually",
+    "startMs": 114300,
+    "endMs": 114800,
+    "timestampMs": 114300,
+    "confidence": 1.0
+  },
+  {
+    "text": " wrong,",
+    "startMs": 114800,
+    "endMs": 115140,
+    "timestampMs": 114800,
+    "confidence": 1.0
+  },
+  {
+    "text": " if",
+    "startMs": 115720,
+    "endMs": 115900,
+    "timestampMs": 115720,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 115900,
+    "endMs": 116020,
+    "timestampMs": 115900,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 116020,
+    "endMs": 116260,
+    "timestampMs": 116020,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
+    "startMs": 116260,
+    "endMs": 116360,
+    "timestampMs": 116260,
+    "confidence": 1.0
+  },
+  {
+    "text": " thyroid",
+    "startMs": 116360,
+    "endMs": 116640,
+    "timestampMs": 116360,
+    "confidence": 1.0
+  },
+  {
+    "text": " issues",
+    "startMs": 116640,
+    "endMs": 117020,
+    "timestampMs": 116640,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 117020,
+    "endMs": 117260,
+    "timestampMs": 117020,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 117260,
+    "endMs": 117420,
+    "timestampMs": 117260,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 117420,
+    "endMs": 117600,
+    "timestampMs": 117420,
+    "confidence": 1.0
+  },
+  {
+    "text": " been",
+    "startMs": 117600,
+    "endMs": 117800,
+    "timestampMs": 117600,
+    "confidence": 1.0
+  },
+  {
+    "text": " told",
+    "startMs": 117800,
+    "endMs": 118080,
+    "timestampMs": 117800,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 118080,
+    "endMs": 118680,
+    "timestampMs": 118080,
+    "confidence": 1.0
+  },
+  {
+    "text": " it",
+    "startMs": 118680,
+    "endMs": 118880,
+    "timestampMs": 118680,
+    "confidence": 1.0
+  },
+  {
+    "text": " is",
+    "startMs": 118880,
+    "endMs": 119040,
+    "timestampMs": 118880,
+    "confidence": 1.0
+  },
+  {
+    "text": " normal,",
+    "startMs": 119040,
+    "endMs": 119440,
+    "timestampMs": 119040,
+    "confidence": 1.0
+  },
+  {
+    "text": " but",
+    "startMs": 119960,
+    "endMs": 120020,
+    "timestampMs": 119960,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 120020,
+    "endMs": 120180,
+    "timestampMs": 120020,
+    "confidence": 1.0
+  },
+  {
+    "text": " are",
+    "startMs": 120180,
+    "endMs": 120260,
+    "timestampMs": 120180,
+    "confidence": 1.0
+  },
+  {
+    "text": " still",
+    "startMs": 120260,
+    "endMs": 120480,
+    "timestampMs": 120260,
+    "confidence": 1.0
+  },
+  {
+    "text": " struggling",
+    "startMs": 120480,
+    "endMs": 120940,
+    "timestampMs": 120480,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 120940,
+    "endMs": 121120,
+    "timestampMs": 120940,
+    "confidence": 1.0
+  },
+  {
+    "text": " lose",
+    "startMs": 121120,
+    "endMs": 121380,
+    "timestampMs": 121120,
+    "confidence": 1.0
+  },
+  {
+    "text": " weight,",
+    "startMs": 121380,
+    "endMs": 121680,
+    "timestampMs": 121380,
+    "confidence": 1.0
+  },
+  {
+    "text": " Comment",
+    "startMs": 122260,
+    "endMs": 122440,
+    "timestampMs": 122260,
+    "confidence": 1.0
+  },
+  {
+    "text": " below",
+    "startMs": 122440,
+    "endMs": 122580,
+    "timestampMs": 122440,
+    "confidence": 1.0
+  },
+  {
+    "text": " thyroid",
+    "startMs": 122580,
+    "endMs": 122980,
+    "timestampMs": 122580,
+    "confidence": 1.0
+  },
+  {
+    "text": " so",
+    "startMs": 122980,
+    "endMs": 123300,
+    "timestampMs": 122980,
+    "confidence": 1.0
+  },
+  {
+    "text": " that",
+    "startMs": 123300,
+    "endMs": 123440,
+    "timestampMs": 123300,
+    "confidence": 1.0
+  },
+  {
+    "text": " my",
+    "startMs": 123440,
+    "endMs": 123600,
+    "timestampMs": 123440,
+    "confidence": 1.0
+  },
+  {
+    "text": " team",
+    "startMs": 123600,
+    "endMs": 123820,
+    "timestampMs": 123600,
+    "confidence": 1.0
+  },
+  {
+    "text": " can",
+    "startMs": 123820,
+    "endMs": 124020,
+    "timestampMs": 123820,
+    "confidence": 1.0
+  },
+  {
+    "text": " connect",
+    "startMs": 124020,
+    "endMs": 124360,
+    "timestampMs": 124020,
+    "confidence": 1.0
+  },
+  {
+    "text": " and",
+    "startMs": 124360,
+    "endMs": 124720,
+    "timestampMs": 124360,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 124720,
+    "endMs": 124860,
+    "timestampMs": 124720,
+    "confidence": 1.0
+  },
+  {
+    "text": " can",
+    "startMs": 124860,
+    "endMs": 125000,
+    "timestampMs": 124860,
+    "confidence": 1.0
+  },
+  {
+    "text": " have",
+    "startMs": 125000,
+    "endMs": 125240,
+    "timestampMs": 125000,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 125240,
+    "endMs": 125380,
+    "timestampMs": 125240,
+    "confidence": 1.0
+  },
+  {
+    "text": " consultation",
+    "startMs": 125380,
+    "endMs": 125840,
+    "timestampMs": 125380,
+    "confidence": 1.0
+  },
+  {
+    "text": " with",
+    "startMs": 125840,
+    "endMs": 126200,
+    "timestampMs": 125840,
+    "confidence": 1.0
+  },
+  {
+    "text": " us,",
+    "startMs": 126200,
+    "endMs": 126480,
+    "timestampMs": 126200,
+    "confidence": 1.0
+  },
+  {
+    "text": " do",
+    "startMs": 126480,
+    "endMs": 127160,
+    "timestampMs": 126480,
+    "confidence": 1.0
+  },
+  {
+    "text": " what",
+    "startMs": 127160,
+    "endMs": 127420,
+    "timestampMs": 127160,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 127420,
+    "endMs": 127560,
+    "timestampMs": 127420,
+    "confidence": 1.0
+  },
+  {
+    "text": " body",
+    "startMs": 127560,
+    "endMs": 127900,
+    "timestampMs": 127560,
+    "confidence": 1.0
+  },
+  {
+    "text": " deserves,",
+    "startMs": 127900,
+    "endMs": 128320,
+    "timestampMs": 127900,
+    "confidence": 1.0
+  },
+  {
+    "text": " someone",
+    "startMs": 128639,
+    "endMs": 128940,
+    "timestampMs": 128639,
+    "confidence": 1.0
+  },
+  {
+    "text": " who",
+    "startMs": 128940,
+    "endMs": 129160,
+    "timestampMs": 128940,
+    "confidence": 1.0
+  },
+  {
+    "text": " actually",
+    "startMs": 129160,
+    "endMs": 129460,
+    "timestampMs": 129160,
+    "confidence": 1.0
+  },
+  {
+    "text": " listens",
+    "startMs": 129460,
+    "endMs": 129780,
+    "timestampMs": 129460,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 129780,
+    "endMs": 130060,
+    "timestampMs": 129780,
+    "confidence": 1.0
+  },
+  {
+    "text": " it,",
+    "startMs": 130060,
+    "endMs": 130259,
+    "timestampMs": 130060,
+    "confidence": 1.0
+  },
+  {
+    "text": " you",
+    "startMs": 130440,
+    "endMs": 130539,
+    "timestampMs": 130440,
+    "confidence": 1.0
+  },
+  {
+    "text": " need",
+    "startMs": 130539,
+    "endMs": 130660,
+    "timestampMs": 130539,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 130660,
+    "endMs": 130820,
+    "timestampMs": 130660,
+    "confidence": 1.0
+  },
+  {
+    "text": " connect.",
+    "startMs": 130820,
+    "endMs": 131060,
+    "timestampMs": 130820,
+    "confidence": 1.0
+  }
+]
