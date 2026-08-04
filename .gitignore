@@ -20,6 +20,7 @@ __pycache__/
 
 # Keep only the logo
 !remotion/public/logo.png
+!studio/public/logo.png
 !pipeline/.env.example
 
 # No generated data
