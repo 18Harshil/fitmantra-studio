@@ -7,6 +7,7 @@ import time
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from dotenv import load_dotenv
 from pydantic import BaseModel
@@ -30,6 +31,7 @@ pipeline_state = {
 }
 
 app = FastAPI(title="FitMantra Pipeline Server")
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 INPUT_DIR = Path("input")
 INPUT_DIR.mkdir(exist_ok=True)
@@ -180,6 +182,8 @@ async def approve_brolls(req: BrollApproveRequest):
             if result["status"] == "error":
                 web_runner._yield(5, "error", result.get("message", "Finalize failed"))
                 pipeline_state["status"] = "idle"
+            else:
+                pipeline_state["status"] = "complete"
         except Exception as e:
             web_runner._yield(5, "error", f"Finalize crashed: {e}")
             pipeline_state["status"] = "idle"

@@ -34,6 +34,10 @@ def _heartbeat_loop(step_label: str):
         _heartbeat_stop.wait(timeout=3)
         if _heartbeat_stop.is_set() or _heartbeat_start == 0:
             break
+        # Re-check stop right before yielding so a stale "running" event
+        # can't land after the step's terminal "done" event and overwrite it.
+        if _heartbeat_stop.is_set():
+            break
         secs = int(time.time() - _heartbeat_start)
         _yield(_heartbeat_step, "running", f"Working... ({secs}s)",
                step_label, float(secs), float(secs))
@@ -207,7 +211,7 @@ def fetch_and_finalize(pip_events: list, transcript: dict, analysis: dict,
         )
         _yield(5, "done", "Remotion data written", substep="broll_fetch",
                elapsed=time.time() - t0, total=elapsed())
-        _yield(5, "done", "Pipeline complete! Launching studio...", elapsed=elapsed(), total=elapsed())
+        _yield(5, "complete", "Pipeline complete! Launching studio...", elapsed=elapsed(), total=elapsed())
         return {"status": "complete", "studio_url": "http://localhost:3000"}
     except Exception as e:
         _yield(5, "error", f"Finalize failed: {e}", total=elapsed())

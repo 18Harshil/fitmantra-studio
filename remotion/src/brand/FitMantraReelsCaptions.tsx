@@ -84,7 +84,7 @@ const Token: React.FC<{
         fontFamily: FONT_FAMILY,
         fontWeight: 700,
         whiteSpace: "pre",
-        color: "#000000",
+        color: "#FFFFFF",
       }}
     >
       {textContent}
@@ -108,21 +108,23 @@ const CaptionPage: React.FC<{
   const padShifted = Math.round(height * 0.39);
   const normalFont = Math.round(height * 0.035);
   const containerMaxW = Math.round(height * 0.55);
-  const pipMaxW = Math.round(height * 0.25);
+  const pipMaxW = Math.round(height * 0.30);
 
   return (
     <AbsoluteFill
       style={{
-        alignItems: "center",
+        alignItems: pipActive ? "flex-start" : "center",
         justifyContent: "flex-end",
         paddingBottom: pipActive ? pipPad : (shiftUp ? padShifted : pad),
+        paddingLeft: pipActive ? 40 : 0,
+        paddingRight: pipActive ? Math.round(height * 0.35) : 0,
         pointerEvents: "none",
       }}
     >
       <div
         style={{
           fontFamily: FONT_FAMILY,
-          textAlign: "center",
+          textAlign: pipActive ? "left" : "center",
           maxWidth: pipActive ? pipMaxW : containerMaxW,
           fontWeight: 700,
           fontSize: normalFont,
@@ -130,8 +132,8 @@ const CaptionPage: React.FC<{
           padding: "0px 8px",
           letterSpacing: 0.4,
           whiteSpace: "pre-wrap",
-          background: "#FFFFFF",
           borderRadius: 16,
+          textShadow: "0 2px 8px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.6)",
         }}
       >
         {page.tokens.map((token) => (

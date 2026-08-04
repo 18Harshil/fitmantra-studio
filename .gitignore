@@ -1,12 +1,15 @@
 ﻿node_modules/
 out/
 .env
+.env.*
+!.env.example
 __MACOSX/
 .DS_Store
 Thumbs.db
 *.log
 __pycache__/
 *.pyc
+.next/
 
 # No videos or media in repo
 *.mp4

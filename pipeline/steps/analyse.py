@@ -105,7 +105,8 @@ Word timestamps (first 120 words for reference):
     from google.genai.errors import ClientError, ServerError
 
     t0 = time.time()
-    for attempt in range(10):
+    result = None
+    for attempt in range(3):
         try:
             response = client.models.generate_content(
                 model="gemini-2.5-flash",
@@ -114,23 +115,56 @@ Word timestamps (first 120 words for reference):
                     temperature=0.4,
                 ),
             )
+            text = response.text.strip()
+            if text.startswith("```"):
+                text = text.strip("`").strip()
+                if text.startswith("json"):
+                    text = text[4:].strip()
+            result = json.loads(text)
             break
         except (ClientError, ServerError) as e:
-            if attempt == 9 or e.code not in (429, 503):
-                raise
-            wait = 2 ** (attempt + 1) + 5
-            print(f"    ⏳ Gemini busy (attempt {attempt+1}/10), retrying in {wait}s...")
-            if progress_callback:
-                progress_callback(3, "running", f"Gemini busy (attempt {attempt+1}/10), retry in {wait}s",
-                                 "gemini_analyse", time.time() - t0, time.time() - t0)
-            time.sleep(wait)
+            if e.code in (429, 500, 502, 503):
+                wait = 3
+                print(f"    ⏳ Gemini busy (attempt {attempt+1}/3), retrying in {wait}s...")
+                if progress_callback:
+                    progress_callback(3, "running", f"Gemini busy (attempt {attempt+1}/3), retry in {wait}s",
+                                     "gemini_analyse", time.time() - t0, time.time() - t0)
+                time.sleep(wait)
+            else:
+                print(f"    ⚠ Gemini failed ({e.code}), using fallback analysis")
+                break
 
-    text = response.text.strip()
-    if text.startswith("```"):
-        text = text.strip("`").strip()
-        if text.startswith("json"):
-            text = text[4:].strip()
-    result = json.loads(text)
+    if result is None:
+        # Fallback: basic analysis from transcript
+        print(f"    ⚠ Generating fallback analysis from transcript...")
+        word_count = len(words)
+        dur = words[-1]["end"] if words else 60
+        result = {
+            "scenes": [{"start": 0, "end": dur, "tone": "educational", "narration_summary": full_text[:100]}],
+            "suggested_cuts": [{"start": dur - 2, "end": dur, "reason": "end silence", "confidence": 0.8}],
+            "stat_overlays": [],
+            "highlight_keywords": [],
+            "pip_events": [],
+            "suggested_caption": full_text[:150],
+            "hashtags": "#health #wellness",
+            "suggested_title": "Health Talk",
+            "overall_mood": "calm",
+        }
+        # Extract numbers as stat overlay candidates
+        import re
+        nums = re.findall(r'\d+[\.,]?\d*%?', full_text)
+        for i, n in enumerate(nums[:5]):
+            idx = full_text.find(n)
+            if idx >= 0:
+                ts = dur * idx / max(len(full_text), 1)
+                result["stat_overlays"].append({"timestamp": round(ts, 1), "text": n + " — " + full_text[max(0,idx-20):idx+len(n)+20].strip(), "duration": 3})
+        # Create 3 pip events at regular intervals
+        for i in range(3):
+            ts = dur * (i + 1) / 4
+            result["pip_events"].append({"timestamp": round(ts, 1), "duration": 5, "pip_format": "pip", "search_query": "health wellness", "pip_description": "Generic health visual"})
+        # Use common words as highlight keywords
+        common_kw = ["health", "nutrition", "food", "body", "hormones", "insulin", "blood", "sugar", "heart", "risk"]
+        result["highlight_keywords"] = [w for w in common_kw if w in full_text.lower()][:8]
 
     # Save analysis
     analysis_path = output_dir / "analysis.json"

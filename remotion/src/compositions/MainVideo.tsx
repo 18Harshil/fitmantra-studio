@@ -159,7 +159,7 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
         src={staticFile("logo.png")}
         style={{
           position: "absolute",
-          top: 60,
+          top: 120,
           left: 50,
           width: Math.round(height * 0.11),
           height: Math.round(height * 0.11),

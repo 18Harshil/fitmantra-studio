@@ -76,7 +76,7 @@ const Token: React.FC<{
       style={{
         display: "inline",
         opacity: fadeIn,
-        color: "#000000",
+        color: "#FFFFFF",
         whiteSpace: "pre",
       }}
     >
@@ -125,8 +125,8 @@ const CaptionPage: React.FC<{ page: TikTokPage; keywordSet: ReadonlySet<string>;
           lineHeight: 1.1,
           padding: "0px 8px",
           letterSpacing: -1.5,
-          background: "#FFFFFF",
           borderRadius: 16,
+          textShadow: "0 2px 8px rgba(0,0,0,0.9), 0 0 4px rgba(0,0,0,0.6)",
           whiteSpace: "pre-wrap",
 
         }}

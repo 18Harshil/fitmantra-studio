@@ -21,6 +21,7 @@ export interface StatOverlay {
   text: string;
   duration: number;
   large?: boolean;
+  verticalOffset?: number;
 }
 
 export type BrollOverlay = {

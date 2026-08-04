@@ -61,7 +61,7 @@ export const StatCard: React.FC<Props> = ({ stat, fps }) => {
       style={{
         justifyContent: "flex-start",
         alignItems: "center",
-        paddingTop: "35%",
+        paddingTop: stat.verticalOffset ? `${stat.verticalOffset}%` : "35%",
         opacity,
         transform: `translateY(${translateY}px)`,
         pointerEvents: "none",

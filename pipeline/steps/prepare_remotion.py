@@ -16,6 +16,67 @@ FFPROBE = "ffprobe"
 OUTRO_DURATION_SECONDS = 4.78
 
 
+def _retry(desc: str, fn, attempts: int = 15, delay: float = 1.0):
+    """Run fn, retrying on transient Windows file locks (WinError 32/5)."""
+    import time as _time
+    last = None
+    for _ in range(attempts):
+        try:
+            return fn()
+        except OSError as e:
+            last = e
+            _time.sleep(delay)
+    raise RuntimeError(f"{desc} failed (file still locked): {last}")
+
+
+def _reencode_input(video_path: Path, input_tmp: Path) -> None:
+    """Re-encode the input video to H.264 + AAC with faststart (browser-safe)."""
+    _probe = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-encoders"], capture_output=True, text=True, timeout=30
+    )
+    video_encoder = "libx264"
+    encoder_args = ["-preset", "ultrafast", "-crf", "23"]
+    if "h264_nvenc" in _probe.stdout:
+        video_encoder = "h264_nvenc"
+        encoder_args = ["-preset", "p4", "-cq", "23"]
+    r = subprocess.run(
+        ["ffmpeg", "-i", str(video_path),
+         "-vf", "eq=gamma=1.2:contrast=1.05:brightness=0.03:saturation=1.03",
+         "-pix_fmt", "yuv420p",
+         "-c:v", video_encoder, *encoder_args,
+         "-vsync", "cfr",
+         "-c:a", "aac", "-movflags", "+faststart", "-y", str(input_tmp)],
+        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=1200,
+    )
+    if r.returncode != 0:
+        _retry("unlink tmp", lambda: input_tmp.unlink(missing_ok=True))
+        raise RuntimeError(f"ffmpeg re-encode failed")
+
+
+def _copy_to(input_tmp: Path, input_dst: Path) -> None:
+    """Overwrite input.mp4 from the completed temp file (Windows-safe: the
+    Remotion preview streams input.mp4 and locks it, so os.replace fails)."""
+    def _do_copy():
+        import shutil
+        with open(input_tmp, "rb") as _src, open(input_dst, "wb") as _dst:
+            shutil.copyfileobj(_src, _dst, 1024 * 1024)
+    _retry("copy to input.mp4", _do_copy)
+
+
+def _safe_unlink(p: Path):
+    _retry("unlink", lambda: p.unlink(missing_ok=True))
+
+
+def _verify_mp4(path: Path) -> bool:
+    """Decode the whole file; returns True only if it is fully clean."""
+    r = subprocess.run(
+        ["ffmpeg", "-hide_banner", "-loglevel", "error", "-i", str(path), "-f", "null", "-"],
+        stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, timeout=1200,
+    )
+    return r.returncode == 0
+
+
+
 def _ensure_pip_format(ev: dict) -> dict:
     ev["pip_format"] = ev.get("pip_format", "pip")
     return ev
@@ -49,19 +110,38 @@ def prepare_remotion(
     visuals_dir = remotion_public_dir / "visuals"
     visuals_dir.mkdir(parents=True, exist_ok=True)
 
-    # Copy input video — re-encode to H.264 (browser compat + CFR)
-    input_dst = visuals_dir / "input.mp4"
-    r = subprocess.run(
-        ["ffmpeg", "-i", str(video_path),
-         "-vf", "eq=gamma=1.2:contrast=1.05:brightness=0.03:saturation=1.03",
-         "-pix_fmt", "yuv420p",
-         "-c:v", "libx264", "-preset", "ultrafast", "-crf", "23",
-         "-vsync", "cfr",
-         "-c:a", "aac", "-y", str(input_dst)],
-        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=300,
-    )
-    if r.returncode != 0:
-        raise RuntimeError(f"ffmpeg re-encode failed")
+    # Copy input video — re-encode to H.264 (browser compat + CFR) into a NEW
+    # versioned file. The Remotion preview streams input.mp4 and holds it open,
+    # so overwriting it in place races with the browser and corrupts the file.
+    # A fresh unique filename each run avoids that entirely.
+    import time as _time
+    input_dst = visuals_dir / f"input_{int(_time.time() * 1000)}.mp4"
+    input_tmp = visuals_dir / f"input_tmp_{int(_time.time() * 1000)}.mp4"
+    last_err = None
+    for _attempt in range(2):
+        _reencode_input(video_path, input_tmp)
+        try:
+            _copy_to(input_tmp, input_dst)
+        except Exception as e:
+            last_err = e
+            _safe_unlink(input_tmp)
+            raise RuntimeError(f"could not write {input_dst.name}: {e}")
+        _safe_unlink(input_tmp)
+        if _verify_mp4(input_dst):
+            break
+        last_err = "input.mp4 decode check failed (retrying)"
+        _safe_unlink(input_tmp)
+        _safe_unlink(input_dst)
+        input_dst = visuals_dir / f"input_{int(_time.time() * 1000)}.mp4"
+        input_tmp = visuals_dir / f"input_tmp_{int(_time.time() * 1000)}.mp4"
+    else:
+        raise RuntimeError(f"{input_dst.name} corrupt after re-encode: {last_err}")
+
+    # Clean up old versioned inputs (keep current + the pre-versioning name)
+    for old in visuals_dir.glob("input_*.mp4"):
+        if old == input_dst:
+            continue
+        _safe_unlink(old)
 
     # Captions for @remotion/captions
     captions = [
@@ -183,7 +263,7 @@ def prepare_remotion(
     # Build remotion_data.json
     remotion_data = {
         "video": {
-            "src": "visuals/input.mp4",
+            "src": f"visuals/{input_dst.name}",
             "duration_seconds": round(duration, 2),
             "fps": fps,
             "width": width,

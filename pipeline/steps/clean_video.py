@@ -180,18 +180,28 @@ def clean_video(
     expr = _build_select_expr(keep)
     output_path = output_dir / "cleaned.mp4"
 
+    # Prefer GPU encoding when available (4K/60fps input is too slow on CPU)
+    _probe = subprocess.run(
+        [FFMPEG, "-hide_banner", "-encoders"], capture_output=True, text=True, timeout=30
+    )
+    video_encoder = "libx264"
+    encoder_args = ["-preset", "ultrafast", "-crf", "23"]
+    if "h264_nvenc" in _probe.stdout:
+        video_encoder = "h264_nvenc"
+        encoder_args = ["-preset", "p4", "-cq", "23"]
+
     cmd = [
         FFMPEG, "-y", "-i", str(video_path),
         "-vf", f"select='{expr}',setpts=N/FRAME_RATE/TB",
         "-af", f"aselect='{expr}',asetpts=N/SR/TB",
-        "-vsync", "cfr", "-pix_fmt", "yuv420p", "-c:v", "libx264", "-preset", "ultrafast", "-crf", "23",
+        "-vsync", "cfr", "-pix_fmt", "yuv420p", "-c:v", video_encoder, *encoder_args,
         "-c:a", "aac", "-b:a", "128k",
         str(output_path),
     ]
-    print(f"      Running ffmpeg...")
-    r = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=300)
+    print(f"      Running ffmpeg ({video_encoder})...")
+    r = subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=1200)
     if r.returncode != 0:
-        r2 = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+        r2 = subprocess.run(cmd, capture_output=True, text=True, timeout=1200)
         print(f"      ✗ ffmpeg error: {r2.stderr[:600]}")
         return (video_path, transcript, analysis)
 
