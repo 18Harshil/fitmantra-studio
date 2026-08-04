@@ -228,7 +228,7 @@ export default function Page() {
       </div>
 
       {/* Broll Manager */}
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: 16, overflow: "hidden" }}>
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: 16, overflowY: "auto" }}>
         <h1 style={{ fontSize: 18, fontWeight: 700, marginBottom: 16, color: "#00ff88" }}>
           FitMantra Studio — Broll Manager
         </h1>
@@ -442,7 +442,7 @@ export default function Page() {
         </div>
 
         {/* Broll List */}
-        <div style={{ flex: 1, overflowY: "auto", minHeight: 0 }}>
+        <div style={{ flexShrink: 0 }}>
           <h3 style={{ fontSize: 14, color: "#aaa", margin: "0 0 8px 0" }}>
             Current Brolls ({pipEvents.length})
           </h3>
