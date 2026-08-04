@@ -230,7 +230,7 @@ export default function Page() {
       {/* Broll Manager */}
       <div style={{ flex: 1, display: "flex", flexDirection: "column", padding: 16, overflowY: "auto" }}>
         <h1 style={{ fontSize: 18, fontWeight: 700, marginBottom: 16, color: "#00ff88" }}>
-          FitMantra Studio — Broll Manager
+          FitMantra Studio
         </h1>
 
         {/* Pipeline */}
