@@ -1,982 +1,1031 @@
 [
   {
     "text": " Pomegranate",
-    "startMs": 299,
-    "endMs": 960,
-    "timestampMs": 299,
+    "startMs": 80,
+    "endMs": 740,
+    "timestampMs": 80,
     "confidence": 1.0
   },
   {
     "text": " are",
-    "startMs": 960,
-    "endMs": 1360,
-    "timestampMs": 960,
+    "startMs": 740,
+    "endMs": 1140,
+    "timestampMs": 740,
     "confidence": 1.0
   },
   {
     "text": " not",
-    "startMs": 1360,
-    "endMs": 1559,
-    "timestampMs": 1360,
+    "startMs": 1140,
+    "endMs": 1339,
+    "timestampMs": 1140,
     "confidence": 1.0
   },
   {
     "text": " only",
-    "startMs": 1559,
-    "endMs": 1820,
-    "timestampMs": 1559,
+    "startMs": 1339,
+    "endMs": 1600,
+    "timestampMs": 1339,
     "confidence": 1.0
   },
   {
     "text": " delicious,",
-    "startMs": 1820,
-    "endMs": 2219,
-    "timestampMs": 1820,
+    "startMs": 1600,
+    "endMs": 2000,
+    "timestampMs": 1600,
     "confidence": 1.0
   },
   {
     "text": " but",
-    "startMs": 2519,
-    "endMs": 2599,
-    "timestampMs": 2519,
+    "startMs": 2300,
+    "endMs": 2380,
+    "timestampMs": 2300,
     "confidence": 1.0
   },
   {
     "text": " they",
-    "startMs": 2599,
-    "endMs": 2760,
-    "timestampMs": 2599,
+    "startMs": 2380,
+    "endMs": 2540,
+    "timestampMs": 2380,
     "confidence": 1.0
   },
   {
     "text": " are",
-    "startMs": 2760,
-    "endMs": 2820,
-    "timestampMs": 2760,
+    "startMs": 2540,
+    "endMs": 2600,
+    "timestampMs": 2540,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 2820,
-    "endMs": 2940,
-    "timestampMs": 2820,
+    "startMs": 2600,
+    "endMs": 2720,
+    "timestampMs": 2600,
     "confidence": 1.0
   },
   {
     "text": " powerful",
-    "startMs": 2940,
-    "endMs": 3340,
-    "timestampMs": 2940,
+    "startMs": 2720,
+    "endMs": 3120,
+    "timestampMs": 2720,
     "confidence": 1.0
   },
   {
     "text": " tool",
-    "startMs": 3340,
-    "endMs": 3740,
-    "timestampMs": 3340,
+    "startMs": 3120,
+    "endMs": 3520,
+    "timestampMs": 3120,
     "confidence": 1.0
   },
   {
     "text": " for",
-    "startMs": 3740,
-    "endMs": 4080,
-    "timestampMs": 3740,
+    "startMs": 3520,
+    "endMs": 3860,
+    "timestampMs": 3520,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 4080,
-    "endMs": 4240,
-    "timestampMs": 4080,
+    "startMs": 3860,
+    "endMs": 4020,
+    "timestampMs": 3860,
     "confidence": 1.0
   },
   {
     "text": " healthy",
+    "startMs": 4020,
+    "endMs": 4240,
+    "timestampMs": 4020,
+    "confidence": 1.0
+  },
+  {
+    "text": " gut",
     "startMs": 4240,
-    "endMs": 4460,
+    "endMs": 4520,
     "timestampMs": 4240,
     "confidence": 1.0
   },
   {
-    "text": " gut",
-    "startMs": 4460,
-    "endMs": 4739,
-    "timestampMs": 4460,
-    "confidence": 1.0
-  },
-  {
     "text": " and",
-    "startMs": 4739,
-    "endMs": 5060,
-    "timestampMs": 4739,
+    "startMs": 4520,
+    "endMs": 4840,
+    "timestampMs": 4520,
     "confidence": 1.0
   },
   {
     "text": " overall",
-    "startMs": 5060,
-    "endMs": 5540,
-    "timestampMs": 5060,
+    "startMs": 4840,
+    "endMs": 5320,
+    "timestampMs": 4840,
     "confidence": 1.0
   },
   {
     "text": " well",
-    "startMs": 5540,
-    "endMs": 5940,
-    "timestampMs": 5540,
+    "startMs": 5320,
+    "endMs": 5720,
+    "timestampMs": 5320,
     "confidence": 1.0
   },
   {
     "text": " -being.",
-    "startMs": 5940,
-    "endMs": 6239,
-    "timestampMs": 5940,
+    "startMs": 5720,
+    "endMs": 6020,
+    "timestampMs": 5720,
     "confidence": 1.0
   },
   {
     "text": " The",
-    "startMs": 6700,
-    "endMs": 6940,
-    "timestampMs": 6700,
+    "startMs": 6480,
+    "endMs": 6720,
+    "timestampMs": 6480,
     "confidence": 1.0
   },
   {
     "text": " juice",
-    "startMs": 6940,
-    "endMs": 7180,
-    "timestampMs": 6940,
+    "startMs": 6720,
+    "endMs": 6960,
+    "timestampMs": 6720,
     "confidence": 1.0
   },
   {
     "text": " of",
+    "startMs": 6960,
+    "endMs": 7180,
+    "timestampMs": 6960,
+    "confidence": 1.0
+  },
+  {
+    "text": " a",
     "startMs": 7180,
-    "endMs": 7399,
+    "endMs": 7340,
     "timestampMs": 7180,
     "confidence": 1.0
   },
   {
-    "text": " a",
-    "startMs": 7399,
-    "endMs": 7560,
-    "timestampMs": 7399,
-    "confidence": 1.0
-  },
-  {
     "text": " pomegranate",
-    "startMs": 7560,
-    "endMs": 8140,
-    "timestampMs": 7560,
+    "startMs": 7340,
+    "endMs": 7920,
+    "timestampMs": 7340,
     "confidence": 1.0
   },
   {
     "text": " stimulates",
-    "startMs": 8140,
-    "endMs": 8700,
-    "timestampMs": 8140,
+    "startMs": 7920,
+    "endMs": 8480,
+    "timestampMs": 7920,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 8700,
-    "endMs": 8860,
-    "timestampMs": 8700,
+    "startMs": 8480,
+    "endMs": 8640,
+    "timestampMs": 8480,
     "confidence": 1.0
   },
   {
     "text": " gut",
-    "startMs": 8860,
-    "endMs": 9120,
-    "timestampMs": 8860,
+    "startMs": 8640,
+    "endMs": 8900,
+    "timestampMs": 8640,
     "confidence": 1.0
   },
   {
     "text": " to",
-    "startMs": 9120,
-    "endMs": 9520,
-    "timestampMs": 9120,
+    "startMs": 8900,
+    "endMs": 9300,
+    "timestampMs": 8900,
     "confidence": 1.0
   },
   {
     "text": " produce",
-    "startMs": 9520,
-    "endMs": 9960,
-    "timestampMs": 9520,
+    "startMs": 9300,
+    "endMs": 9740,
+    "timestampMs": 9300,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 9960,
-    "endMs": 10239,
-    "timestampMs": 9960,
+    "startMs": 9740,
+    "endMs": 10020,
+    "timestampMs": 9740,
     "confidence": 1.0
   },
   {
     "text": " heavy",
-    "startMs": 10239,
-    "endMs": 10520,
-    "timestampMs": 10239,
+    "startMs": 10020,
+    "endMs": 10300,
+    "timestampMs": 10020,
     "confidence": 1.0
   },
   {
     "text": " mucus,",
-    "startMs": 10520,
-    "endMs": 10960,
-    "timestampMs": 10520,
+    "startMs": 10300,
+    "endMs": 10740,
+    "timestampMs": 10300,
     "confidence": 1.0
   },
   {
     "text": " which",
-    "startMs": 11340,
-    "endMs": 11500,
-    "timestampMs": 11340,
+    "startMs": 11120,
+    "endMs": 11280,
+    "timestampMs": 11120,
     "confidence": 1.0
   },
   {
     "text": " in",
-    "startMs": 11500,
-    "endMs": 11660,
-    "timestampMs": 11500,
+    "startMs": 11280,
+    "endMs": 11440,
+    "timestampMs": 11280,
     "confidence": 1.0
   },
   {
     "text": " turn",
+    "startMs": 11440,
+    "endMs": 11660,
+    "timestampMs": 11440,
+    "confidence": 1.0
+  },
+  {
+    "text": " the",
     "startMs": 11660,
-    "endMs": 11879,
+    "endMs": 11900,
     "timestampMs": 11660,
     "confidence": 1.0
   },
   {
-    "text": " the",
-    "startMs": 11879,
-    "endMs": 12120,
-    "timestampMs": 11879,
-    "confidence": 1.0
-  },
-  {
     "text": " fosters",
-    "startMs": 12120,
-    "endMs": 12480,
-    "timestampMs": 12120,
+    "startMs": 11900,
+    "endMs": 12260,
+    "timestampMs": 11900,
     "confidence": 1.0
   },
   {
     "text": " growth",
-    "startMs": 12480,
-    "endMs": 13320,
-    "timestampMs": 12480,
+    "startMs": 12260,
+    "endMs": 13100,
+    "timestampMs": 12260,
     "confidence": 1.0
   },
   {
     "text": " of",
-    "startMs": 13320,
-    "endMs": 13700,
-    "timestampMs": 13320,
+    "startMs": 13100,
+    "endMs": 13479,
+    "timestampMs": 13100,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 13700,
-    "endMs": 13840,
-    "timestampMs": 13700,
+    "startMs": 13479,
+    "endMs": 13620,
+    "timestampMs": 13479,
     "confidence": 1.0
   },
   {
     "text": " commensure,",
-    "startMs": 13840,
-    "endMs": 14420,
-    "timestampMs": 13840,
+    "startMs": 13620,
+    "endMs": 14200,
+    "timestampMs": 13620,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 14580,
-    "endMs": 14660,
-    "timestampMs": 14580,
+    "startMs": 14360,
+    "endMs": 14440,
+    "timestampMs": 14360,
     "confidence": 1.0
   },
   {
     "text": " beneficiary",
-    "startMs": 14660,
-    "endMs": 15260,
-    "timestampMs": 14660,
+    "startMs": 14440,
+    "endMs": 15040,
+    "timestampMs": 14440,
     "confidence": 1.0
   },
   {
     "text": " gut",
-    "startMs": 15260,
-    "endMs": 15500,
-    "timestampMs": 15260,
+    "startMs": 15040,
+    "endMs": 15280,
+    "timestampMs": 15040,
     "confidence": 1.0
   },
   {
     "text": " bacteria.",
-    "startMs": 15500,
-    "endMs": 15980,
-    "timestampMs": 15500,
+    "startMs": 15280,
+    "endMs": 15760,
+    "timestampMs": 15280,
     "confidence": 1.0
   },
   {
     "text": " The",
-    "startMs": 16540,
-    "endMs": 16800,
-    "timestampMs": 16540,
+    "startMs": 16320,
+    "endMs": 16580,
+    "timestampMs": 16320,
     "confidence": 1.0
   },
   {
     "text": " commensure",
-    "startMs": 16800,
-    "endMs": 17360,
-    "timestampMs": 16800,
+    "startMs": 16580,
+    "endMs": 17140,
+    "timestampMs": 16580,
     "confidence": 1.0
   },
   {
     "text": " is",
-    "startMs": 17360,
-    "endMs": 17720,
-    "timestampMs": 17360,
+    "startMs": 17140,
+    "endMs": 17500,
+    "timestampMs": 17140,
     "confidence": 1.0
   },
   {
     "text": " also",
-    "startMs": 17720,
-    "endMs": 18240,
-    "timestampMs": 17720,
+    "startMs": 17500,
+    "endMs": 18020,
+    "timestampMs": 17500,
     "confidence": 1.0
   },
   {
     "text": " known",
-    "startMs": 18240,
-    "endMs": 18440,
-    "timestampMs": 18240,
+    "startMs": 18020,
+    "endMs": 18220,
+    "timestampMs": 18020,
     "confidence": 1.0
   },
   {
     "text": " as",
-    "startMs": 18440,
-    "endMs": 18660,
-    "timestampMs": 18440,
+    "startMs": 18220,
+    "endMs": 18439,
+    "timestampMs": 18220,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 18660,
-    "endMs": 18820,
-    "timestampMs": 18660,
+    "startMs": 18439,
+    "endMs": 18600,
+    "timestampMs": 18439,
     "confidence": 1.0
   },
   {
     "text": " guardian",
-    "startMs": 18820,
-    "endMs": 19160,
-    "timestampMs": 18820,
+    "startMs": 18600,
+    "endMs": 18939,
+    "timestampMs": 18600,
     "confidence": 1.0
   },
   {
     "text": " of",
-    "startMs": 19160,
-    "endMs": 19580,
-    "timestampMs": 19160,
+    "startMs": 18939,
+    "endMs": 19360,
+    "timestampMs": 18939,
     "confidence": 1.0
   },
   {
     "text": " armatabolism.",
-    "startMs": 19580,
-    "endMs": 20600,
-    "timestampMs": 19580,
+    "startMs": 19360,
+    "endMs": 20380,
+    "timestampMs": 19360,
     "confidence": 1.0
   },
   {
     "text": " This",
-    "startMs": 21240,
-    "endMs": 21500,
-    "timestampMs": 21240,
+    "startMs": 20540,
+    "endMs": 20799,
+    "timestampMs": 20540,
     "confidence": 1.0
   },
   {
     "text": " remarkable",
-    "startMs": 21500,
-    "endMs": 22060,
-    "timestampMs": 21500,
+    "startMs": 20799,
+    "endMs": 21360,
+    "timestampMs": 20799,
     "confidence": 1.0
   },
   {
     "text": " bacteria",
-    "startMs": 22060,
-    "endMs": 22600,
-    "timestampMs": 22060,
+    "startMs": 21360,
+    "endMs": 21900,
+    "timestampMs": 21360,
     "confidence": 1.0
   },
   {
     "text": " plays",
-    "startMs": 22600,
-    "endMs": 22940,
-    "timestampMs": 22600,
+    "startMs": 21900,
+    "endMs": 22239,
+    "timestampMs": 21900,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 22940,
-    "endMs": 23160,
-    "timestampMs": 22940,
+    "startMs": 22239,
+    "endMs": 22459,
+    "timestampMs": 22239,
     "confidence": 1.0
   },
   {
     "text": " crucial",
-    "startMs": 23160,
-    "endMs": 23500,
-    "timestampMs": 23160,
+    "startMs": 22459,
+    "endMs": 22799,
+    "timestampMs": 22459,
     "confidence": 1.0
   },
   {
     "text": " role",
-    "startMs": 23500,
-    "endMs": 23840,
-    "timestampMs": 23500,
+    "startMs": 22799,
+    "endMs": 23139,
+    "timestampMs": 22799,
     "confidence": 1.0
   },
   {
     "text": " in",
-    "startMs": 23840,
-    "endMs": 24040,
-    "timestampMs": 23840,
+    "startMs": 23139,
+    "endMs": 23339,
+    "timestampMs": 23139,
     "confidence": 1.0
   },
   {
     "text": " maintaining",
-    "startMs": 24040,
-    "endMs": 24400,
-    "timestampMs": 24040,
+    "startMs": 23339,
+    "endMs": 23699,
+    "timestampMs": 23339,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 24400,
-    "endMs": 24700,
-    "timestampMs": 24400,
+    "startMs": 23699,
+    "endMs": 23999,
+    "timestampMs": 23699,
     "confidence": 1.0
   },
   {
     "text": " healthy",
-    "startMs": 24700,
-    "endMs": 24960,
-    "timestampMs": 24700,
+    "startMs": 23999,
+    "endMs": 24259,
+    "timestampMs": 23999,
     "confidence": 1.0
   },
   {
     "text": " metabolism.",
-    "startMs": 24960,
-    "endMs": 25680,
-    "timestampMs": 24960,
+    "startMs": 24259,
+    "endMs": 24979,
+    "timestampMs": 24259,
     "confidence": 1.0
   },
   {
     "text": " Boosting",
-    "startMs": 25680,
-    "endMs": 26720,
-    "timestampMs": 25680,
+    "startMs": 24979,
+    "endMs": 26019,
+    "timestampMs": 24979,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 26720,
-    "endMs": 26800,
-    "timestampMs": 26720,
+    "startMs": 26019,
+    "endMs": 26099,
+    "timestampMs": 26019,
     "confidence": 1.0
   },
   {
     "text": " immune",
-    "startMs": 26800,
-    "endMs": 26960,
-    "timestampMs": 26800,
+    "startMs": 26099,
+    "endMs": 26259,
+    "timestampMs": 26099,
     "confidence": 1.0
   },
   {
     "text": " system,",
-    "startMs": 26960,
-    "endMs": 27520,
-    "timestampMs": 26960,
+    "startMs": 26259,
+    "endMs": 26819,
+    "timestampMs": 26259,
     "confidence": 1.0
   },
   {
     "text": " reducing",
-    "startMs": 28120,
-    "endMs": 28360,
-    "timestampMs": 28120,
+    "startMs": 26979,
+    "endMs": 27219,
+    "timestampMs": 26979,
     "confidence": 1.0
   },
   {
     "text": " inflammation",
-    "startMs": 28360,
-    "endMs": 29200,
-    "timestampMs": 28360,
+    "startMs": 27219,
+    "endMs": 28059,
+    "timestampMs": 27219,
     "confidence": 1.0
   },
   {
     "text": " and",
-    "startMs": 29200,
-    "endMs": 29820,
-    "timestampMs": 29200,
+    "startMs": 28059,
+    "endMs": 28679,
+    "timestampMs": 28059,
     "confidence": 1.0
   },
   {
     "text": " research",
-    "startMs": 29820,
-    "endMs": 30300,
-    "timestampMs": 29820,
+    "startMs": 28679,
+    "endMs": 29159,
+    "timestampMs": 28679,
     "confidence": 1.0
   },
   {
     "text": " has",
-    "startMs": 30300,
-    "endMs": 30880,
-    "timestampMs": 30300,
+    "startMs": 29159,
+    "endMs": 29739,
+    "timestampMs": 29159,
     "confidence": 1.0
   },
   {
     "text": " also",
-    "startMs": 30880,
-    "endMs": 31180,
-    "timestampMs": 30880,
+    "startMs": 29739,
+    "endMs": 30039,
+    "timestampMs": 29739,
     "confidence": 1.0
   },
   {
     "text": " shown",
-    "startMs": 31180,
-    "endMs": 31759,
-    "timestampMs": 31180,
+    "startMs": 30039,
+    "endMs": 30619,
+    "timestampMs": 30039,
     "confidence": 1.0
   },
   {
     "text": " that",
-    "startMs": 31759,
-    "endMs": 31960,
-    "timestampMs": 31759,
+    "startMs": 30619,
+    "endMs": 30819,
+    "timestampMs": 30619,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 31960,
-    "endMs": 32080,
-    "timestampMs": 31960,
+    "startMs": 30819,
+    "endMs": 30939,
+    "timestampMs": 30819,
     "confidence": 1.0
   },
   {
     "text": " commensure",
-    "startMs": 32080,
-    "endMs": 32640,
-    "timestampMs": 32080,
+    "startMs": 30939,
+    "endMs": 31499,
+    "timestampMs": 30939,
     "confidence": 1.0
   },
   {
     "text": " can",
-    "startMs": 32640,
-    "endMs": 32900,
-    "timestampMs": 32640,
+    "startMs": 31499,
+    "endMs": 31759,
+    "timestampMs": 31499,
     "confidence": 1.0
   },
   {
     "text": " stimulate",
-    "startMs": 32900,
-    "endMs": 33420,
-    "timestampMs": 32900,
+    "startMs": 31759,
+    "endMs": 32279,
+    "timestampMs": 31759,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 33420,
-    "endMs": 33720,
-    "timestampMs": 33420,
+    "startMs": 32279,
+    "endMs": 32579,
+    "timestampMs": 32279,
     "confidence": 1.0
   },
   {
     "text": " body",
-    "startMs": 33720,
-    "endMs": 34040,
-    "timestampMs": 33720,
+    "startMs": 32579,
+    "endMs": 32899,
+    "timestampMs": 32579,
     "confidence": 1.0
   },
   {
     "text": " to",
-    "startMs": 34040,
-    "endMs": 34300,
-    "timestampMs": 34040,
+    "startMs": 32899,
+    "endMs": 33160,
+    "timestampMs": 32899,
     "confidence": 1.0
   },
   {
     "text": " produce",
-    "startMs": 34300,
-    "endMs": 34660,
-    "timestampMs": 34300,
+    "startMs": 33160,
+    "endMs": 33519,
+    "timestampMs": 33160,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 34660,
-    "endMs": 34920,
-    "timestampMs": 34660,
+    "startMs": 33519,
+    "endMs": 33779,
+    "timestampMs": 33519,
     "confidence": 1.0
   },
   {
     "text": " GLP1,",
-    "startMs": 34920,
-    "endMs": 35740,
-    "timestampMs": 34920,
+    "startMs": 33779,
+    "endMs": 34599,
+    "timestampMs": 33779,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 36320,
-    "endMs": 36400,
-    "timestampMs": 36320,
+    "startMs": 35179,
+    "endMs": 35259,
+    "timestampMs": 35179,
     "confidence": 1.0
   },
   {
     "text": " hormone",
-    "startMs": 36400,
-    "endMs": 36720,
-    "timestampMs": 36400,
+    "startMs": 35259,
+    "endMs": 35579,
+    "timestampMs": 35259,
     "confidence": 1.0
   },
   {
     "text": " that",
-    "startMs": 36720,
-    "endMs": 37100,
-    "timestampMs": 36720,
+    "startMs": 35579,
+    "endMs": 35959,
+    "timestampMs": 35579,
     "confidence": 1.0
   },
   {
     "text": " regulates",
-    "startMs": 37100,
-    "endMs": 37700,
-    "timestampMs": 37100,
+    "startMs": 35959,
+    "endMs": 36559,
+    "timestampMs": 35959,
     "confidence": 1.0
   },
   {
     "text": " blood",
-    "startMs": 37700,
-    "endMs": 37900,
-    "timestampMs": 37700,
+    "startMs": 36559,
+    "endMs": 36759,
+    "timestampMs": 36559,
     "confidence": 1.0
   },
   {
     "text": " sugar",
-    "startMs": 37900,
-    "endMs": 38120,
-    "timestampMs": 37900,
+    "startMs": 36759,
+    "endMs": 36979,
+    "timestampMs": 36759,
     "confidence": 1.0
   },
   {
     "text": " and",
-    "startMs": 38120,
-    "endMs": 38460,
-    "timestampMs": 38120,
+    "startMs": 36979,
+    "endMs": 37319,
+    "timestampMs": 36979,
     "confidence": 1.0
   },
   {
     "text": " promotes",
-    "startMs": 38460,
-    "endMs": 38720,
-    "timestampMs": 38460,
+    "startMs": 37319,
+    "endMs": 37579,
+    "timestampMs": 37319,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 38720,
-    "endMs": 38920,
-    "timestampMs": 38720,
+    "startMs": 37579,
+    "endMs": 37779,
+    "timestampMs": 37579,
     "confidence": 1.0
   },
   {
     "text": " fat",
-    "startMs": 38920,
-    "endMs": 39080,
-    "timestampMs": 38920,
+    "startMs": 37779,
+    "endMs": 37939,
+    "timestampMs": 37779,
     "confidence": 1.0
   },
   {
     "text": " loss.",
-    "startMs": 39080,
-    "endMs": 39300,
-    "timestampMs": 39080,
+    "startMs": 37939,
+    "endMs": 38160,
+    "timestampMs": 37939,
     "confidence": 1.0
   },
   {
     "text": " Why",
-    "startMs": 40180,
-    "endMs": 40420,
-    "timestampMs": 40180,
+    "startMs": 38319,
+    "endMs": 38559,
+    "timestampMs": 38319,
     "confidence": 1.0
   },
   {
     "text": " don't",
-    "startMs": 40420,
-    "endMs": 40640,
-    "timestampMs": 40420,
+    "startMs": 38559,
+    "endMs": 38779,
+    "timestampMs": 38559,
     "confidence": 1.0
   },
   {
     "text": " we",
-    "startMs": 40640,
-    "endMs": 40800,
-    "timestampMs": 40640,
+    "startMs": 38779,
+    "endMs": 38940,
+    "timestampMs": 38779,
     "confidence": 1.0
   },
   {
     "text": " unlock",
-    "startMs": 40800,
-    "endMs": 41120,
-    "timestampMs": 40800,
+    "startMs": 38940,
+    "endMs": 39259,
+    "timestampMs": 38940,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 41120,
-    "endMs": 41340,
-    "timestampMs": 41120,
+    "startMs": 39259,
+    "endMs": 39480,
+    "timestampMs": 39259,
     "confidence": 1.0
   },
   {
     "text": " power",
-    "startMs": 41340,
-    "endMs": 41600,
-    "timestampMs": 41340,
+    "startMs": 39480,
+    "endMs": 39739,
+    "timestampMs": 39480,
     "confidence": 1.0
   },
   {
     "text": " of",
-    "startMs": 41600,
-    "endMs": 41800,
-    "timestampMs": 41600,
+    "startMs": 39739,
+    "endMs": 39940,
+    "timestampMs": 39739,
     "confidence": 1.0
   },
   {
     "text": " pomegranates?",
-    "startMs": 41800,
-    "endMs": 42540,
-    "timestampMs": 41800,
+    "startMs": 39940,
+    "endMs": 40679,
+    "timestampMs": 39940,
     "confidence": 1.0
   },
   {
     "text": " By",
-    "startMs": 43060,
-    "endMs": 43140,
-    "timestampMs": 43060,
+    "startMs": 40839,
+    "endMs": 40919,
+    "timestampMs": 40839,
     "confidence": 1.0
   },
   {
     "text": " incorporating",
-    "startMs": 43140,
-    "endMs": 43720,
-    "timestampMs": 43140,
+    "startMs": 40919,
+    "endMs": 41499,
+    "timestampMs": 40919,
     "confidence": 1.0
   },
   {
     "text": " them",
-    "startMs": 43720,
-    "endMs": 44120,
-    "timestampMs": 43720,
+    "startMs": 41499,
+    "endMs": 41899,
+    "timestampMs": 41499,
     "confidence": 1.0
   },
   {
     "text": " into",
-    "startMs": 44120,
-    "endMs": 44460,
-    "timestampMs": 44120,
+    "startMs": 41899,
+    "endMs": 42239,
+    "timestampMs": 41899,
     "confidence": 1.0
   },
   {
     "text": " your",
-    "startMs": 44460,
-    "endMs": 44680,
-    "timestampMs": 44460,
+    "startMs": 42239,
+    "endMs": 42459,
+    "timestampMs": 42239,
     "confidence": 1.0
   },
   {
     "text": " diets,",
-    "startMs": 44680,
-    "endMs": 44980,
-    "timestampMs": 44680,
+    "startMs": 42459,
+    "endMs": 42759,
+    "timestampMs": 42459,
     "confidence": 1.0
   },
   {
     "text": " you",
-    "startMs": 45280,
-    "endMs": 45280,
-    "timestampMs": 45280,
+    "startMs": 43059,
+    "endMs": 43059,
+    "timestampMs": 43059,
     "confidence": 1.0
   },
   {
     "text": " can",
-    "startMs": 45280,
-    "endMs": 45440,
-    "timestampMs": 45280,
+    "startMs": 43059,
+    "endMs": 43219,
+    "timestampMs": 43059,
     "confidence": 1.0
   },
   {
     "text": " harness",
-    "startMs": 45440,
-    "endMs": 45780,
-    "timestampMs": 45440,
+    "startMs": 43219,
+    "endMs": 43559,
+    "timestampMs": 43219,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 45780,
-    "endMs": 46000,
-    "timestampMs": 45780,
+    "startMs": 43559,
+    "endMs": 43779,
+    "timestampMs": 43559,
     "confidence": 1.0
   },
   {
     "text": " power",
-    "startMs": 46000,
-    "endMs": 46260,
-    "timestampMs": 46000,
+    "startMs": 43779,
+    "endMs": 44039,
+    "timestampMs": 43779,
     "confidence": 1.0
   },
   {
     "text": " of",
-    "startMs": 46260,
-    "endMs": 46520,
-    "timestampMs": 46260,
+    "startMs": 44039,
+    "endMs": 44299,
+    "timestampMs": 44039,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 46520,
-    "endMs": 46620,
-    "timestampMs": 46520,
+    "startMs": 44299,
+    "endMs": 44399,
+    "timestampMs": 44299,
     "confidence": 1.0
   },
   {
     "text": " commensure",
-    "startMs": 46620,
-    "endMs": 47140,
-    "timestampMs": 46620,
+    "startMs": 44399,
+    "endMs": 44919,
+    "timestampMs": 44399,
     "confidence": 1.0
   },
   {
     "text": " and",
-    "startMs": 47140,
-    "endMs": 47340,
-    "timestampMs": 47140,
+    "startMs": 44919,
+    "endMs": 45119,
+    "timestampMs": 44919,
     "confidence": 1.0
   },
   {
     "text": " support",
-    "startMs": 47340,
-    "endMs": 47740,
-    "timestampMs": 47340,
+    "startMs": 45119,
+    "endMs": 45519,
+    "timestampMs": 45119,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 47740,
-    "endMs": 47980,
-    "timestampMs": 47740,
+    "startMs": 45519,
+    "endMs": 45759,
+    "timestampMs": 45519,
     "confidence": 1.0
   },
   {
     "text": " body's",
-    "startMs": 47980,
-    "endMs": 48520,
-    "timestampMs": 47980,
+    "startMs": 45759,
+    "endMs": 46299,
+    "timestampMs": 45759,
     "confidence": 1.0
   },
   {
     "text": " natural",
-    "startMs": 48520,
-    "endMs": 49020,
-    "timestampMs": 48520,
+    "startMs": 46299,
+    "endMs": 46799,
+    "timestampMs": 46299,
     "confidence": 1.0
   },
   {
     "text": " ability",
-    "startMs": 49020,
-    "endMs": 49660,
-    "timestampMs": 49020,
+    "startMs": 46799,
+    "endMs": 47439,
+    "timestampMs": 46799,
     "confidence": 1.0
   },
   {
     "text": " to",
-    "startMs": 49660,
-    "endMs": 50000,
-    "timestampMs": 49660,
+    "startMs": 47439,
+    "endMs": 47779,
+    "timestampMs": 47439,
     "confidence": 1.0
   },
   {
     "text": " regulate",
-    "startMs": 50000,
-    "endMs": 50420,
-    "timestampMs": 50000,
+    "startMs": 47779,
+    "endMs": 48199,
+    "timestampMs": 47779,
     "confidence": 1.0
   },
   {
     "text": " the",
-    "startMs": 50420,
-    "endMs": 50640,
-    "timestampMs": 50420,
+    "startMs": 48199,
+    "endMs": 48419,
+    "timestampMs": 48199,
     "confidence": 1.0
   },
   {
     "text": " metabolism",
-    "startMs": 50640,
-    "endMs": 51100,
-    "timestampMs": 50640,
+    "startMs": 48419,
+    "endMs": 48879,
+    "timestampMs": 48419,
     "confidence": 1.0
   },
   {
     "text": " and",
-    "startMs": 51100,
-    "endMs": 51460,
-    "timestampMs": 51100,
+    "startMs": 48879,
+    "endMs": 49239,
+    "timestampMs": 48879,
     "confidence": 1.0
   },
   {
     "text": " maintain",
-    "startMs": 51460,
-    "endMs": 51780,
-    "timestampMs": 51460,
+    "startMs": 49239,
+    "endMs": 49559,
+    "timestampMs": 49239,
     "confidence": 1.0
   },
   {
     "text": " that",
-    "startMs": 51780,
-    "endMs": 52080,
-    "timestampMs": 51780,
+    "startMs": 49559,
+    "endMs": 49859,
+    "timestampMs": 49559,
     "confidence": 1.0
   },
   {
     "text": " healthy",
-    "startMs": 52080,
-    "endMs": 52360,
-    "timestampMs": 52080,
+    "startMs": 49859,
+    "endMs": 50139,
+    "timestampMs": 49859,
     "confidence": 1.0
   },
   {
     "text": " weight.",
-    "startMs": 52360,
-    "endMs": 52660,
-    "timestampMs": 52360,
+    "startMs": 50139,
+    "endMs": 50439,
+    "timestampMs": 50139,
     "confidence": 1.0
   },
   {
     "text": " Try",
-    "startMs": 53440,
-    "endMs": 54000,
-    "timestampMs": 53440,
+    "startMs": 51219,
+    "endMs": 51779,
+    "timestampMs": 51219,
     "confidence": 1.0
   },
   {
     "text": " adding",
-    "startMs": 54000,
-    "endMs": 54320,
-    "timestampMs": 54000,
+    "startMs": 51779,
+    "endMs": 52099,
+    "timestampMs": 51779,
     "confidence": 1.0
   },
   {
     "text": " a",
-    "startMs": 54320,
-    "endMs": 54500,
-    "timestampMs": 54320,
+    "startMs": 52099,
+    "endMs": 52279,
+    "timestampMs": 52099,
+    "confidence": 1.0
+  },
+  {
+    "text": " cup",
+    "startMs": 52279,
+    "endMs": 52539,
+    "timestampMs": 52279,
+    "confidence": 1.0
+  },
+  {
+    "text": " of",
+    "startMs": 52539,
+    "endMs": 52819,
+    "timestampMs": 52539,
+    "confidence": 1.0
+  },
+  {
+    "text": " pomegranate",
+    "startMs": 52819,
+    "endMs": 53299,
+    "timestampMs": 52819,
+    "confidence": 1.0
+  },
+  {
+    "text": " seeds",
+    "startMs": 53299,
+    "endMs": 53579,
+    "timestampMs": 53299,
+    "confidence": 1.0
+  },
+  {
+    "text": " to",
+    "startMs": 53579,
+    "endMs": 53819,
+    "timestampMs": 53579,
+    "confidence": 1.0
+  },
+  {
+    "text": " your",
+    "startMs": 53819,
+    "endMs": 53919,
+    "timestampMs": 53819,
+    "confidence": 1.0
+  },
+  {
+    "text": " salads.",
+    "startMs": 53919,
+    "endMs": 54319,
+    "timestampMs": 53919,
     "confidence": 1.0
   }
 ]

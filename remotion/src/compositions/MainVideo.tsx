@@ -9,9 +9,8 @@ import {
   interpolate,
   Easing,
 } from "remotion";
-import { StatCard } from "./StatCard";
-import type { RemotionData } from "../types";
 import { FitMantraCaptions } from "../brand/FitMantraCaptions";
+import type { RemotionData } from "../types";
 import { FitMantraReelsCaptions } from "../brand/FitMantraReelsCaptions";
 import { BrandOutro, OUTRO_DURATION_SECONDS } from "../brand/BrandOutro";
 
@@ -148,7 +147,15 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
       >
         <OffthreadVideo
           src={staticFile(data.video.src)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", filter: "brightness(1.15) contrast(1.2)" }}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            filter:
+              data.video.video_filter === "none"
+                ? "none"
+                : data.video.video_filter || "brightness(1.15) contrast(1.2)",
+          }}
         />
       </AbsoluteFill>
 
@@ -159,7 +166,7 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
         src={staticFile("logo.png")}
         style={{
           position: "absolute",
-          top: 120,
+          top: 70,
           left: 50,
           width: Math.round(height * 0.11),
           height: Math.round(height * 0.11),
@@ -185,12 +192,6 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
         }}
       />
 
-      {/* Layer 4 — Stat overlays */}
-      {data.stat_overlays.map((stat, i) => (
-        <StatCard key={i} stat={stat} fps={fps} />
-      ))}
-
-
       {/* Layer 5 — Captions */}
       {isReel ? (
         <FitMantraReelsCaptions
@@ -212,7 +213,7 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
       {/* Layer 7 — Outro appended */}
       {outroFrames > 0 ? (
         <Sequence from={bodyFrames} durationInFrames={outroFrames} layout="none">
-          <BrandOutro src="visuals/outro_video.mp4" />
+          <BrandOutro src="visuals/trimmed_with_fade.mp4" />
         </Sequence>
       ) : null}
 

@@ -3,6 +3,7 @@ import json
 import os
 import queue
 import sys
+import threading
 import time
 from pathlib import Path
 
@@ -29,6 +30,10 @@ pipeline_state = {
     "transcript": None,
     "analysis": None,
 }
+
+# Guards finalize so concurrent auto-approve/reconnect calls can't spawn
+# overlapping threads whose cleanup steps delete each other's input files.
+_finalize_lock = threading.Lock()
 
 app = FastAPI(title="FitMantra Pipeline Server")
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
@@ -169,26 +174,28 @@ async def approve_brolls(req: BrollApproveRequest):
     pipeline_state["log_queue"] = queue.Queue()
     web_runner._sse_queue = pipeline_state["log_queue"]
 
-    import threading as _threading
+    if _finalize_lock.locked():
+        return {"status": "finalizing"}
 
     def _finalize_thread():
-        try:
-            result = fetch_and_finalize(
-                pip_events,
-                pipeline_state["transcript"],
-                pipeline_state["analysis"],
-                PEXELS_API_KEY, GEMINI_API_KEY,
-            )
-            if result["status"] == "error":
-                web_runner._yield(5, "error", result.get("message", "Finalize failed"))
+        with _finalize_lock:
+            try:
+                result = fetch_and_finalize(
+                    pip_events,
+                    pipeline_state["transcript"],
+                    pipeline_state["analysis"],
+                    PEXELS_API_KEY, GEMINI_API_KEY,
+                )
+                if result["status"] == "error":
+                    web_runner._yield(5, "error", result.get("message", "Finalize failed"))
+                    pipeline_state["status"] = "idle"
+                else:
+                    pipeline_state["status"] = "complete"
+            except Exception as e:
+                web_runner._yield(5, "error", f"Finalize crashed: {e}")
                 pipeline_state["status"] = "idle"
-            else:
-                pipeline_state["status"] = "complete"
-        except Exception as e:
-            web_runner._yield(5, "error", f"Finalize crashed: {e}")
-            pipeline_state["status"] = "idle"
 
-    t = _threading.Thread(target=_finalize_thread, daemon=True)
+    t = threading.Thread(target=_finalize_thread, daemon=True)
     t.start()
     return {"status": "finalizing"}
 

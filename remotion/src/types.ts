@@ -69,6 +69,8 @@ export interface RemotionData {
     fps: number;
     width: number;
     height: number;
+    /** Optional CSS filter for the main video. "none" disables all filters. */
+    video_filter?: string;
   };
   words: Word[];
   scenes: Scene[];
@@ -77,6 +79,7 @@ export interface RemotionData {
   bg_image_overlays: BgImageOverlay[];
   captions_src: string;
   highlight_keywords: string[];
+  capitalize_words: string[];
   outro: {
     type: "video" | "logo";
     duration_seconds: number;

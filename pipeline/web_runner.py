@@ -112,6 +112,11 @@ def run_pipeline(pexels_api_key: str, gemini_api_key: str):
     _yield(2, "running", "Loading Whisper model...", substep="model_load", elapsed=elapsed(), total=elapsed())
     from google import genai
     client = genai.Client(api_key=gemini_api_key) if gemini_api_key else None
+    if client is not None:
+        try:
+            client.http_options.timeout = 90  # seconds; avoid free-tier hangs
+        except Exception:
+            pass
 
     t0 = time.time()
     try:
@@ -196,6 +201,11 @@ def fetch_and_finalize(pip_events: list, transcript: dict, analysis: dict,
 
     from google import genai
     client = genai.Client(api_key=gemini_api_key) if gemini_api_key else None
+    if client is not None:
+        try:
+            client.http_options.timeout = 90  # seconds; avoid free-tier hangs
+        except Exception:
+            pass
 
     _yield(5, "running", "Downloading approved B-rolls from Pexels...", substep="fetch_brolls", elapsed=elapsed(), total=elapsed())
     t0 = time.time()

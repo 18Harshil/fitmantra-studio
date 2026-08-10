@@ -1,799 +1,957 @@
 {
-  "video": {
-    "src": "visuals/input_1785835578694.mp4",
-    "duration_seconds": 54.8,
-    "fps": 30,
-    "width": 1080,
-    "height": 1920
-  },
-  "words": [
-    {
-      "word": "Pomegranate",
-      "start": 0.2999999999999998,
-      "end": 0.96
-    },
-    {
-      "word": "are",
-      "start": 0.96,
-      "end": 1.3600000000000003
-    },
-    {
-      "word": "not",
-      "start": 1.3600000000000003,
-      "end": 1.5599999999999996
-    },
-    {
-      "word": "only",
-      "start": 1.5599999999999996,
-      "end": 1.8200000000000003
-    },
-    {
-      "word": "delicious,",
-      "start": 1.8200000000000003,
-      "end": 2.2199999999999998
-    },
-    {
-      "word": "but",
-      "start": 2.5199999999999996,
-      "end": 2.5999999999999996
-    },
-    {
-      "word": "they",
-      "start": 2.5999999999999996,
-      "end": 2.76
-    },
-    {
-      "word": "are",
-      "start": 2.76,
-      "end": 2.8200000000000003
-    },
-    {
-      "word": "the",
-      "start": 2.8200000000000003,
-      "end": 2.9400000000000004
-    },
-    {
-      "word": "powerful",
-      "start": 2.9400000000000004,
-      "end": 3.34
-    },
-    {
-      "word": "tool",
-      "start": 3.34,
-      "end": 3.74
-    },
-    {
-      "word": "for",
-      "start": 3.74,
-      "end": 4.08
-    },
-    {
-      "word": "the",
-      "start": 4.08,
-      "end": 4.24
-    },
-    {
-      "word": "healthy",
-      "start": 4.24,
-      "end": 4.46
-    },
-    {
-      "word": "gut",
-      "start": 4.46,
-      "end": 4.739999999999999
-    },
-    {
-      "word": "and",
-      "start": 4.739999999999999,
-      "end": 5.06
-    },
-    {
-      "word": "overall",
-      "start": 5.06,
-      "end": 5.54
-    },
-    {
-      "word": "well",
-      "start": 5.54,
-      "end": 5.94
-    },
-    {
-      "word": "-being.",
-      "start": 5.94,
-      "end": 6.239999999999999
-    },
-    {
-      "word": "The",
-      "start": 6.7,
-      "end": 6.94
-    },
-    {
-      "word": "juice",
-      "start": 6.94,
-      "end": 7.180000000000001
-    },
-    {
-      "word": "of",
-      "start": 7.180000000000001,
-      "end": 7.3999999999999995
-    },
-    {
-      "word": "a",
-      "start": 7.3999999999999995,
-      "end": 7.56
-    },
-    {
-      "word": "pomegranate",
-      "start": 7.56,
-      "end": 8.14
-    },
-    {
-      "word": "stimulates",
-      "start": 8.14,
-      "end": 8.7
-    },
-    {
-      "word": "the",
-      "start": 8.7,
-      "end": 8.86
-    },
-    {
-      "word": "gut",
-      "start": 8.86,
-      "end": 9.120000000000001
-    },
-    {
-      "word": "to",
-      "start": 9.120000000000001,
-      "end": 9.52
-    },
-    {
-      "word": "produce",
-      "start": 9.52,
-      "end": 9.96
-    },
-    {
-      "word": "a",
-      "start": 9.96,
-      "end": 10.239999999999998
-    },
-    {
-      "word": "heavy",
-      "start": 10.239999999999998,
-      "end": 10.52
-    },
-    {
-      "word": "mucus,",
-      "start": 10.52,
-      "end": 10.96
-    },
-    {
-      "word": "which",
-      "start": 11.34,
-      "end": 11.5
-    },
-    {
-      "word": "in",
-      "start": 11.5,
-      "end": 11.66
-    },
-    {
-      "word": "turn",
-      "start": 11.66,
-      "end": 11.879999999999999
-    },
-    {
-      "word": "the",
-      "start": 11.879999999999999,
-      "end": 12.120000000000001
-    },
-    {
-      "word": "fosters",
-      "start": 12.120000000000001,
-      "end": 12.48
-    },
-    {
-      "word": "growth",
-      "start": 12.48,
-      "end": 13.32
-    },
-    {
-      "word": "of",
-      "start": 13.32,
-      "end": 13.7
-    },
-    {
-      "word": "a",
-      "start": 13.7,
-      "end": 13.84
-    },
-    {
-      "word": "commensure,",
-      "start": 13.84,
-      "end": 14.420000000000002
-    },
-    {
-      "word": "a",
-      "start": 14.580000000000002,
-      "end": 14.66
-    },
-    {
-      "word": "beneficiary",
-      "start": 14.66,
-      "end": 15.260000000000002
-    },
-    {
-      "word": "gut",
-      "start": 15.260000000000002,
-      "end": 15.5
-    },
-    {
-      "word": "bacteria.",
-      "start": 15.5,
-      "end": 15.98
-    },
-    {
-      "word": "The",
-      "start": 16.54,
-      "end": 16.8
-    },
-    {
-      "word": "commensure",
-      "start": 16.8,
-      "end": 17.36
-    },
-    {
-      "word": "is",
-      "start": 17.36,
-      "end": 17.720000000000002
-    },
-    {
-      "word": "also",
-      "start": 17.720000000000002,
-      "end": 18.240000000000002
-    },
-    {
-      "word": "known",
-      "start": 18.240000000000002,
-      "end": 18.44
-    },
-    {
-      "word": "as",
-      "start": 18.44,
-      "end": 18.66
-    },
-    {
-      "word": "the",
-      "start": 18.66,
-      "end": 18.82
-    },
-    {
-      "word": "guardian",
-      "start": 18.82,
-      "end": 19.16
-    },
-    {
-      "word": "of",
-      "start": 19.16,
-      "end": 19.580000000000002
-    },
-    {
-      "word": "armatabolism.",
-      "start": 19.580000000000002,
-      "end": 20.6
-    },
-    {
-      "word": "This",
-      "start": 21.240000000000002,
-      "end": 21.5
-    },
-    {
-      "word": "remarkable",
-      "start": 21.5,
-      "end": 22.060000000000002
-    },
-    {
-      "word": "bacteria",
-      "start": 22.060000000000002,
-      "end": 22.6
-    },
-    {
-      "word": "plays",
-      "start": 22.6,
-      "end": 22.94
-    },
-    {
-      "word": "a",
-      "start": 22.94,
-      "end": 23.16
-    },
-    {
-      "word": "crucial",
-      "start": 23.16,
-      "end": 23.5
-    },
-    {
-      "word": "role",
-      "start": 23.5,
-      "end": 23.84
-    },
-    {
-      "word": "in",
-      "start": 23.84,
-      "end": 24.04
-    },
-    {
-      "word": "maintaining",
-      "start": 24.04,
-      "end": 24.400000000000002
-    },
-    {
-      "word": "a",
-      "start": 24.400000000000002,
-      "end": 24.7
-    },
-    {
-      "word": "healthy",
-      "start": 24.7,
-      "end": 24.96
-    },
-    {
-      "word": "metabolism.",
-      "start": 24.96,
-      "end": 25.68
-    },
-    {
-      "word": "Boosting",
-      "start": 25.68,
-      "end": 26.720000000000002
-    },
-    {
-      "word": "a",
-      "start": 26.720000000000002,
-      "end": 26.8
-    },
-    {
-      "word": "immune",
-      "start": 26.8,
-      "end": 26.96
-    },
-    {
-      "word": "system,",
-      "start": 26.96,
-      "end": 27.52
-    },
-    {
-      "word": "reducing",
-      "start": 28.12,
-      "end": 28.36
-    },
-    {
-      "word": "inflammation",
-      "start": 28.36,
-      "end": 29.200000000000003
-    },
-    {
-      "word": "and",
-      "start": 29.200000000000003,
-      "end": 29.82
-    },
-    {
-      "word": "research",
-      "start": 29.82,
-      "end": 30.300000000000004
-    },
-    {
-      "word": "has",
-      "start": 30.300000000000004,
-      "end": 30.880000000000003
-    },
-    {
-      "word": "also",
-      "start": 30.880000000000003,
-      "end": 31.18
-    },
-    {
-      "word": "shown",
-      "start": 31.18,
-      "end": 31.759999999999998
-    },
-    {
-      "word": "that",
-      "start": 31.759999999999998,
-      "end": 31.96
-    },
-    {
-      "word": "a",
-      "start": 31.96,
-      "end": 32.08
-    },
-    {
-      "word": "commensure",
-      "start": 32.08,
-      "end": 32.64
-    },
-    {
-      "word": "can",
-      "start": 32.64,
-      "end": 32.9
-    },
-    {
-      "word": "stimulate",
-      "start": 32.9,
-      "end": 33.42
-    },
-    {
-      "word": "the",
-      "start": 33.42,
-      "end": 33.72
-    },
-    {
-      "word": "body",
-      "start": 33.72,
-      "end": 34.04
-    },
-    {
-      "word": "to",
-      "start": 34.04,
-      "end": 34.300000000000004
-    },
-    {
-      "word": "produce",
-      "start": 34.300000000000004,
-      "end": 34.660000000000004
-    },
-    {
-      "word": "the",
-      "start": 34.660000000000004,
-      "end": 34.92
-    },
-    {
-      "word": "GLP1,",
-      "start": 34.92,
-      "end": 35.74
-    },
-    {
-      "word": "a",
-      "start": 36.32,
-      "end": 36.4
-    },
-    {
-      "word": "hormone",
-      "start": 36.4,
-      "end": 36.72
-    },
-    {
-      "word": "that",
-      "start": 36.72,
-      "end": 37.1
-    },
-    {
-      "word": "regulates",
-      "start": 37.1,
-      "end": 37.7
-    },
-    {
-      "word": "blood",
-      "start": 37.7,
-      "end": 37.9
-    },
-    {
-      "word": "sugar",
-      "start": 37.9,
-      "end": 38.12
-    },
-    {
-      "word": "and",
-      "start": 38.12,
-      "end": 38.46
-    },
-    {
-      "word": "promotes",
-      "start": 38.46,
-      "end": 38.72
-    },
-    {
-      "word": "a",
-      "start": 38.72,
-      "end": 38.92
-    },
-    {
-      "word": "fat",
-      "start": 38.92,
-      "end": 39.08
-    },
-    {
-      "word": "loss.",
-      "start": 39.08,
-      "end": 39.300000000000004
-    },
-    {
-      "word": "Why",
-      "start": 40.18,
-      "end": 40.42
-    },
-    {
-      "word": "don't",
-      "start": 40.42,
-      "end": 40.64
-    },
-    {
-      "word": "we",
-      "start": 40.64,
-      "end": 40.800000000000004
-    },
-    {
-      "word": "unlock",
-      "start": 40.800000000000004,
-      "end": 41.12
-    },
-    {
-      "word": "the",
-      "start": 41.12,
-      "end": 41.34
-    },
-    {
-      "word": "power",
-      "start": 41.34,
-      "end": 41.6
-    },
-    {
-      "word": "of",
-      "start": 41.6,
-      "end": 41.800000000000004
-    },
-    {
-      "word": "pomegranates?",
-      "start": 41.800000000000004,
-      "end": 42.54
-    },
-    {
-      "word": "By",
-      "start": 43.06,
-      "end": 43.14
-    },
-    {
-      "word": "incorporating",
-      "start": 43.14,
-      "end": 43.72
-    },
-    {
-      "word": "them",
-      "start": 43.72,
-      "end": 44.12
-    },
-    {
-      "word": "into",
-      "start": 44.12,
-      "end": 44.46
-    },
-    {
-      "word": "your",
-      "start": 44.46,
-      "end": 44.68
-    },
-    {
-      "word": "diets,",
-      "start": 44.68,
-      "end": 44.980000000000004
-    },
-    {
-      "word": "you",
-      "start": 45.28,
-      "end": 45.28
-    },
-    {
-      "word": "can",
-      "start": 45.28,
-      "end": 45.44
-    },
-    {
-      "word": "harness",
-      "start": 45.44,
-      "end": 45.78
-    },
-    {
-      "word": "the",
-      "start": 45.78,
-      "end": 46
-    },
-    {
-      "word": "power",
-      "start": 46,
-      "end": 46.26
-    },
-    {
-      "word": "of",
-      "start": 46.26,
-      "end": 46.52
-    },
-    {
-      "word": "a",
-      "start": 46.52,
-      "end": 46.62
-    },
-    {
-      "word": "commensure",
-      "start": 46.62,
-      "end": 47.14
-    },
-    {
-      "word": "and",
-      "start": 47.14,
-      "end": 47.34
-    },
-    {
-      "word": "support",
-      "start": 47.34,
-      "end": 47.74
-    },
-    {
-      "word": "the",
-      "start": 47.74,
-      "end": 47.980000000000004
-    },
-    {
-      "word": "body's",
-      "start": 47.980000000000004,
-      "end": 48.52
-    },
-    {
-      "word": "natural",
-      "start": 48.52,
-      "end": 49.02
-    },
-    {
-      "word": "ability",
-      "start": 49.02,
-      "end": 49.660000000000004
-    },
-    {
-      "word": "to",
-      "start": 49.660000000000004,
-      "end": 50
-    },
-    {
-      "word": "regulate",
-      "start": 50,
-      "end": 50.42
-    },
-    {
-      "word": "the",
-      "start": 50.42,
-      "end": 50.64
-    },
-    {
-      "word": "metabolism",
-      "start": 50.64,
-      "end": 51.1
-    },
-    {
-      "word": "and",
-      "start": 51.1,
-      "end": 51.46
-    },
-    {
-      "word": "maintain",
-      "start": 51.46,
-      "end": 51.78
-    },
-    {
-      "word": "that",
-      "start": 51.78,
-      "end": 52.08
-    },
-    {
-      "word": "healthy",
-      "start": 52.08,
-      "end": 52.36
-    },
-    {
-      "word": "weight.",
-      "start": 52.36,
-      "end": 52.660000000000004
-    },
-    {
-      "word": "Try",
-      "start": 53.44,
-      "end": 54
-    },
-    {
-      "word": "adding",
-      "start": 54,
-      "end": 54.32
-    },
-    {
-      "word": "a",
-      "start": 54.32,
-      "end": 54.5
-    }
-  ],
-  "scenes": [],
-  "stat_overlays": [
-    {
-      "timestamp": 33.160000000000004,
-      "text": "1, — y to produce the GLP1, a hormone that regu",
-      "duration": 3
-    }
-  ],
-  "captions_src": "captions.json",
-  "highlight_keywords": [
-    "health",
-    "body",
-    "blood",
-    "sugar"
-  ],
-  "outro": {
-    "type": "video",
-    "duration_seconds": 4.78
-  },
-  "broll_overlays": [],
-  "pip_events": [
-    {
-      "timestamp": 11.46,
-      "duration": 5,
-      "pip_format": "pip",
-      "search_query": "health wellness",
-      "pip_description": "Generic health visual",
-      "_approved": true,
-      "pip_source": "visuals/broll_0.mp4"
-    },
-    {
-      "timestamp": 21,
-      "duration": 5,
-      "pip_format": "pip",
-      "search_query": "health wellness",
-      "pip_description": "Generic health visual",
-      "_approved": true,
-      "pip_source": "visuals/broll_1.mp4"
-    },
-    {
-      "timestamp": 41.56,
-      "duration": 5,
-      "pip_format": "pip",
-      "search_query": "health wellness",
-      "pip_description": "Generic health visual",
-      "_approved": true,
-      "pip_source": "visuals/broll_2.mp4"
-    },
-    {
-      "timestamp": 8,
-      "duration": 7.633333,
-      "pip_format": "full",
-      "pip_source": "visuals/broll hairfall.mp4",
-      "search_query": "",
-      "pip_description": ""
-    }
-  ],
-  "zoom_events": [
-    {
-      "timestamp_ms": 33720,
-      "duration_ms": 1400,
-      "scale": 1.15
-    },
-    {
-      "timestamp_ms": 37700,
-      "duration_ms": 1400,
-      "scale": 1.15
-    }
-  ],
-  "brand": {
-    "logo_src": "logo.png",
-    "show_logo_watermark": true,
-    "logo_position": "top-left",
-    "logo_size": 140
-  },
-  "suggested_cuts": [
-    {
-      "start": 54.503,
-      "end": 54.506,
-      "reason": "end silence",
-      "confidence": 0.8
-    }
-  ],
-  "suggested_caption": "Pomegranate are not only delicious, but they are the powerful tool for the healthy gut and overall well -being. The juice of a pomegranate stimulates ",
-  "hashtags": "#health #wellness",
-  "suggested_title": "Health Talk",
-  "overall_mood": "calm",
-  "capitalize_words": []
+    "video":  {
+                  "src":  "visuals/input_1786362078238.mp4",
+                  "duration_seconds":  54.61,
+                  "fps":  30,
+                  "width":  1080,
+                  "height":  1920,
+                  "video_filter":  "none"
+              },
+    "words":  [
+                  {
+                      "word":  "Pomegranate",
+                      "start":  0.08000000000000007,
+                      "end":  0.7400000000000002
+                  },
+                  {
+                      "word":  "are",
+                      "start":  0.7400000000000002,
+                      "end":  1.1400000000000006
+                  },
+                  {
+                      "word":  "not",
+                      "start":  1.1400000000000006,
+                      "end":  1.3399999999999999
+                  },
+                  {
+                      "word":  "only",
+                      "start":  1.3399999999999999,
+                      "end":  1.6000000000000005
+                  },
+                  {
+                      "word":  "delicious,",
+                      "start":  1.6000000000000005,
+                      "end":  2.0
+                  },
+                  {
+                      "word":  "but",
+                      "start":  2.3,
+                      "end":  2.38
+                  },
+                  {
+                      "word":  "they",
+                      "start":  2.38,
+                      "end":  2.54
+                  },
+                  {
+                      "word":  "are",
+                      "start":  2.54,
+                      "end":  2.6000000000000005
+                  },
+                  {
+                      "word":  "the",
+                      "start":  2.6000000000000005,
+                      "end":  2.7200000000000006
+                  },
+                  {
+                      "word":  "powerful",
+                      "start":  2.7200000000000006,
+                      "end":  3.12
+                  },
+                  {
+                      "word":  "tool",
+                      "start":  3.12,
+                      "end":  3.5200000000000005
+                  },
+                  {
+                      "word":  "for",
+                      "start":  3.5200000000000005,
+                      "end":  3.8600000000000003
+                  },
+                  {
+                      "word":  "the",
+                      "start":  3.8600000000000003,
+                      "end":  4.0200000000000005
+                  },
+                  {
+                      "word":  "healthy",
+                      "start":  4.0200000000000005,
+                      "end":  4.24
+                  },
+                  {
+                      "word":  "gut",
+                      "start":  4.24,
+                      "end":  4.52
+                  },
+                  {
+                      "word":  "and",
+                      "start":  4.52,
+                      "end":  4.84
+                  },
+                  {
+                      "word":  "overall",
+                      "start":  4.84,
+                      "end":  5.32
+                  },
+                  {
+                      "word":  "well",
+                      "start":  5.32,
+                      "end":  5.720000000000001
+                  },
+                  {
+                      "word":  "-being.",
+                      "start":  5.720000000000001,
+                      "end":  6.02
+                  },
+                  {
+                      "word":  "The",
+                      "start":  6.48,
+                      "end":  6.720000000000001
+                  },
+                  {
+                      "word":  "juice",
+                      "start":  6.720000000000001,
+                      "end":  6.960000000000001
+                  },
+                  {
+                      "word":  "of",
+                      "start":  6.960000000000001,
+                      "end":  7.18
+                  },
+                  {
+                      "word":  "a",
+                      "start":  7.18,
+                      "end":  7.34
+                  },
+                  {
+                      "word":  "pomegranate",
+                      "start":  7.34,
+                      "end":  7.92
+                  },
+                  {
+                      "word":  "stimulates",
+                      "start":  7.92,
+                      "end":  8.48
+                  },
+                  {
+                      "word":  "the",
+                      "start":  8.48,
+                      "end":  8.64
+                  },
+                  {
+                      "word":  "gut",
+                      "start":  8.64,
+                      "end":  8.9
+                  },
+                  {
+                      "word":  "to",
+                      "start":  8.9,
+                      "end":  9.3
+                  },
+                  {
+                      "word":  "produce",
+                      "start":  9.3,
+                      "end":  9.74
+                  },
+                  {
+                      "word":  "a",
+                      "start":  9.74,
+                      "end":  10.02
+                  },
+                  {
+                      "word":  "heavy",
+                      "start":  10.02,
+                      "end":  10.3
+                  },
+                  {
+                      "word":  "mucus,",
+                      "start":  10.3,
+                      "end":  10.74
+                  },
+                  {
+                      "word":  "which",
+                      "start":  11.120000000000001,
+                      "end":  11.28
+                  },
+                  {
+                      "word":  "in",
+                      "start":  11.28,
+                      "end":  11.44
+                  },
+                  {
+                      "word":  "turn",
+                      "start":  11.44,
+                      "end":  11.66
+                  },
+                  {
+                      "word":  "the",
+                      "start":  11.66,
+                      "end":  11.9
+                  },
+                  {
+                      "word":  "fosters",
+                      "start":  11.9,
+                      "end":  12.26
+                  },
+                  {
+                      "word":  "growth",
+                      "start":  12.26,
+                      "end":  13.1
+                  },
+                  {
+                      "word":  "of",
+                      "start":  13.1,
+                      "end":  13.479999999999999
+                  },
+                  {
+                      "word":  "a",
+                      "start":  13.479999999999999,
+                      "end":  13.62
+                  },
+                  {
+                      "word":  "commensure,",
+                      "start":  13.62,
+                      "end":  14.200000000000001
+                  },
+                  {
+                      "word":  "a",
+                      "start":  14.360000000000001,
+                      "end":  14.44
+                  },
+                  {
+                      "word":  "beneficiary",
+                      "start":  14.44,
+                      "end":  15.040000000000001
+                  },
+                  {
+                      "word":  "gut",
+                      "start":  15.040000000000001,
+                      "end":  15.28
+                  },
+                  {
+                      "word":  "bacteria.",
+                      "start":  15.28,
+                      "end":  15.76
+                  },
+                  {
+                      "word":  "The",
+                      "start":  16.32,
+                      "end":  16.58
+                  },
+                  {
+                      "word":  "commensure",
+                      "start":  16.58,
+                      "end":  17.14
+                  },
+                  {
+                      "word":  "is",
+                      "start":  17.14,
+                      "end":  17.5
+                  },
+                  {
+                      "word":  "also",
+                      "start":  17.5,
+                      "end":  18.020000000000003
+                  },
+                  {
+                      "word":  "known",
+                      "start":  18.020000000000003,
+                      "end":  18.22
+                  },
+                  {
+                      "word":  "as",
+                      "start":  18.22,
+                      "end":  18.439999999999998
+                  },
+                  {
+                      "word":  "the",
+                      "start":  18.439999999999998,
+                      "end":  18.6
+                  },
+                  {
+                      "word":  "guardian",
+                      "start":  18.6,
+                      "end":  18.939999999999998
+                  },
+                  {
+                      "word":  "of",
+                      "start":  18.939999999999998,
+                      "end":  19.36
+                  },
+                  {
+                      "word":  "armatabolism.",
+                      "start":  19.36,
+                      "end":  20.380000000000003
+                  },
+                  {
+                      "word":  "This",
+                      "start":  20.54,
+                      "end":  20.799999999999997
+                  },
+                  {
+                      "word":  "remarkable",
+                      "start":  20.799999999999997,
+                      "end":  21.36
+                  },
+                  {
+                      "word":  "bacteria",
+                      "start":  21.36,
+                      "end":  21.9
+                  },
+                  {
+                      "word":  "plays",
+                      "start":  21.9,
+                      "end":  22.239999999999995
+                  },
+                  {
+                      "word":  "a",
+                      "start":  22.239999999999995,
+                      "end":  22.459999999999994
+                  },
+                  {
+                      "word":  "crucial",
+                      "start":  22.459999999999994,
+                      "end":  22.799999999999997
+                  },
+                  {
+                      "word":  "role",
+                      "start":  22.799999999999997,
+                      "end":  23.139999999999993
+                  },
+                  {
+                      "word":  "in",
+                      "start":  23.139999999999993,
+                      "end":  23.339999999999996
+                  },
+                  {
+                      "word":  "maintaining",
+                      "start":  23.339999999999996,
+                      "end":  23.699999999999996
+                  },
+                  {
+                      "word":  "a",
+                      "start":  23.699999999999996,
+                      "end":  23.999999999999993
+                  },
+                  {
+                      "word":  "healthy",
+                      "start":  23.999999999999993,
+                      "end":  24.259999999999998
+                  },
+                  {
+                      "word":  "metabolism.",
+                      "start":  24.259999999999998,
+                      "end":  24.979999999999997
+                  },
+                  {
+                      "word":  "Boosting",
+                      "start":  24.979999999999997,
+                      "end":  26.019999999999996
+                  },
+                  {
+                      "word":  "a",
+                      "start":  26.019999999999996,
+                      "end":  26.099999999999994
+                  },
+                  {
+                      "word":  "immune",
+                      "start":  26.099999999999994,
+                      "end":  26.259999999999998
+                  },
+                  {
+                      "word":  "system,",
+                      "start":  26.259999999999998,
+                      "end":  26.819999999999993
+                  },
+                  {
+                      "word":  "reducing",
+                      "start":  26.97999999999999,
+                      "end":  27.21999999999999
+                  },
+                  {
+                      "word":  "inflammation",
+                      "start":  27.21999999999999,
+                      "end":  28.059999999999995
+                  },
+                  {
+                      "word":  "and",
+                      "start":  28.059999999999995,
+                      "end":  28.679999999999993
+                  },
+                  {
+                      "word":  "research",
+                      "start":  28.679999999999993,
+                      "end":  29.159999999999997
+                  },
+                  {
+                      "word":  "has",
+                      "start":  29.159999999999997,
+                      "end":  29.739999999999995
+                  },
+                  {
+                      "word":  "also",
+                      "start":  29.739999999999995,
+                      "end":  30.039999999999992
+                  },
+                  {
+                      "word":  "shown",
+                      "start":  30.039999999999992,
+                      "end":  30.61999999999999
+                  },
+                  {
+                      "word":  "that",
+                      "start":  30.61999999999999,
+                      "end":  30.819999999999993
+                  },
+                  {
+                      "word":  "a",
+                      "start":  30.819999999999993,
+                      "end":  30.93999999999999
+                  },
+                  {
+                      "word":  "commensure",
+                      "start":  30.93999999999999,
+                      "end":  31.499999999999993
+                  },
+                  {
+                      "word":  "can",
+                      "start":  31.499999999999993,
+                      "end":  31.75999999999999
+                  },
+                  {
+                      "word":  "stimulate",
+                      "start":  31.75999999999999,
+                      "end":  32.279999999999994
+                  },
+                  {
+                      "word":  "the",
+                      "start":  32.279999999999994,
+                      "end":  32.57999999999999
+                  },
+                  {
+                      "word":  "body",
+                      "start":  32.57999999999999,
+                      "end":  32.89999999999999
+                  },
+                  {
+                      "word":  "to",
+                      "start":  32.89999999999999,
+                      "end":  33.16
+                  },
+                  {
+                      "word":  "produce",
+                      "start":  33.16,
+                      "end":  33.519999999999996
+                  },
+                  {
+                      "word":  "the",
+                      "start":  33.519999999999996,
+                      "end":  33.779999999999994
+                  },
+                  {
+                      "word":  "GLP1,",
+                      "start":  33.779999999999994,
+                      "end":  34.599999999999994
+                  },
+                  {
+                      "word":  "a",
+                      "start":  35.17999999999999,
+                      "end":  35.25999999999999
+                  },
+                  {
+                      "word":  "hormone",
+                      "start":  35.25999999999999,
+                      "end":  35.57999999999999
+                  },
+                  {
+                      "word":  "that",
+                      "start":  35.57999999999999,
+                      "end":  35.959999999999994
+                  },
+                  {
+                      "word":  "regulates",
+                      "start":  35.959999999999994,
+                      "end":  36.559999999999995
+                  },
+                  {
+                      "word":  "blood",
+                      "start":  36.559999999999995,
+                      "end":  36.75999999999999
+                  },
+                  {
+                      "word":  "sugar",
+                      "start":  36.75999999999999,
+                      "end":  36.97999999999999
+                  },
+                  {
+                      "word":  "and",
+                      "start":  36.97999999999999,
+                      "end":  37.31999999999999
+                  },
+                  {
+                      "word":  "promotes",
+                      "start":  37.31999999999999,
+                      "end":  37.57999999999999
+                  },
+                  {
+                      "word":  "a",
+                      "start":  37.57999999999999,
+                      "end":  37.779999999999994
+                  },
+                  {
+                      "word":  "fat",
+                      "start":  37.779999999999994,
+                      "end":  37.93999999999999
+                  },
+                  {
+                      "word":  "loss.",
+                      "start":  37.93999999999999,
+                      "end":  38.16
+                  },
+                  {
+                      "word":  "Why",
+                      "start":  38.31999999999999,
+                      "end":  38.559999999999995
+                  },
+                  {
+                      "word":  "don\u0027t",
+                      "start":  38.559999999999995,
+                      "end":  38.779999999999994
+                  },
+                  {
+                      "word":  "we",
+                      "start":  38.779999999999994,
+                      "end":  38.94
+                  },
+                  {
+                      "word":  "unlock",
+                      "start":  38.94,
+                      "end":  39.25999999999999
+                  },
+                  {
+                      "word":  "the",
+                      "start":  39.25999999999999,
+                      "end":  39.48
+                  },
+                  {
+                      "word":  "power",
+                      "start":  39.48,
+                      "end":  39.739999999999995
+                  },
+                  {
+                      "word":  "of",
+                      "start":  39.739999999999995,
+                      "end":  39.94
+                  },
+                  {
+                      "word":  "pomegranates?",
+                      "start":  39.94,
+                      "end":  40.67999999999999
+                  },
+                  {
+                      "word":  "By",
+                      "start":  40.83999999999999,
+                      "end":  40.91999999999999
+                  },
+                  {
+                      "word":  "incorporating",
+                      "start":  40.91999999999999,
+                      "end":  41.499999999999986
+                  },
+                  {
+                      "word":  "them",
+                      "start":  41.499999999999986,
+                      "end":  41.899999999999984
+                  },
+                  {
+                      "word":  "into",
+                      "start":  41.899999999999984,
+                      "end":  42.23999999999999
+                  },
+                  {
+                      "word":  "your",
+                      "start":  42.23999999999999,
+                      "end":  42.45999999999999
+                  },
+                  {
+                      "word":  "diets,",
+                      "start":  42.45999999999999,
+                      "end":  42.75999999999999
+                  },
+                  {
+                      "word":  "you",
+                      "start":  43.05999999999999,
+                      "end":  43.05999999999999
+                  },
+                  {
+                      "word":  "can",
+                      "start":  43.05999999999999,
+                      "end":  43.219999999999985
+                  },
+                  {
+                      "word":  "harness",
+                      "start":  43.219999999999985,
+                      "end":  43.55999999999999
+                  },
+                  {
+                      "word":  "the",
+                      "start":  43.55999999999999,
+                      "end":  43.77999999999999
+                  },
+                  {
+                      "word":  "power",
+                      "start":  43.77999999999999,
+                      "end":  44.039999999999985
+                  },
+                  {
+                      "word":  "of",
+                      "start":  44.039999999999985,
+                      "end":  44.29999999999999
+                  },
+                  {
+                      "word":  "a",
+                      "start":  44.29999999999999,
+                      "end":  44.399999999999984
+                  },
+                  {
+                      "word":  "commensure",
+                      "start":  44.399999999999984,
+                      "end":  44.91999999999999
+                  },
+                  {
+                      "word":  "and",
+                      "start":  44.91999999999999,
+                      "end":  45.11999999999999
+                  },
+                  {
+                      "word":  "support",
+                      "start":  45.11999999999999,
+                      "end":  45.51999999999999
+                  },
+                  {
+                      "word":  "the",
+                      "start":  45.51999999999999,
+                      "end":  45.75999999999999
+                  },
+                  {
+                      "word":  "body\u0027s",
+                      "start":  45.75999999999999,
+                      "end":  46.29999999999999
+                  },
+                  {
+                      "word":  "natural",
+                      "start":  46.29999999999999,
+                      "end":  46.79999999999999
+                  },
+                  {
+                      "word":  "ability",
+                      "start":  46.79999999999999,
+                      "end":  47.43999999999999
+                  },
+                  {
+                      "word":  "to",
+                      "start":  47.43999999999999,
+                      "end":  47.77999999999999
+                  },
+                  {
+                      "word":  "regulate",
+                      "start":  47.77999999999999,
+                      "end":  48.19999999999999
+                  },
+                  {
+                      "word":  "the",
+                      "start":  48.19999999999999,
+                      "end":  48.41999999999999
+                  },
+                  {
+                      "word":  "metabolism",
+                      "start":  48.41999999999999,
+                      "end":  48.87999999999999
+                  },
+                  {
+                      "word":  "and",
+                      "start":  48.87999999999999,
+                      "end":  49.23999999999999
+                  },
+                  {
+                      "word":  "maintain",
+                      "start":  49.23999999999999,
+                      "end":  49.55999999999999
+                  },
+                  {
+                      "word":  "that",
+                      "start":  49.55999999999999,
+                      "end":  49.859999999999985
+                  },
+                  {
+                      "word":  "healthy",
+                      "start":  49.859999999999985,
+                      "end":  50.139999999999986
+                  },
+                  {
+                      "word":  "weight.",
+                      "start":  50.139999999999986,
+                      "end":  50.43999999999999
+                  },
+                  {
+                      "word":  "Try",
+                      "start":  51.219999999999985,
+                      "end":  51.77999999999999
+                  },
+                  {
+                      "word":  "adding",
+                      "start":  51.77999999999999,
+                      "end":  52.09999999999999
+                  },
+                  {
+                      "word":  "a",
+                      "start":  52.09999999999999,
+                      "end":  52.27999999999999
+                  },
+                  {
+                      "word":  "cup",
+                      "start":  52.27999999999999,
+                      "end":  52.539999999999985
+                  },
+                  {
+                      "word":  "of",
+                      "start":  52.539999999999985,
+                      "end":  52.819999999999986
+                  },
+                  {
+                      "word":  "pomegranate",
+                      "start":  52.819999999999986,
+                      "end":  53.29999999999999
+                  },
+                  {
+                      "word":  "seeds",
+                      "start":  53.29999999999999,
+                      "end":  53.57999999999999
+                  },
+                  {
+                      "word":  "to",
+                      "start":  53.57999999999999,
+                      "end":  53.819999999999986
+                  },
+                  {
+                      "word":  "your",
+                      "start":  53.819999999999986,
+                      "end":  53.91999999999999
+                  },
+                  {
+                      "word":  "salads.",
+                      "start":  53.91999999999999,
+                      "end":  54.319999999999986
+                  }
+              ],
+    "scenes":  [
+                   {
+                       "start":  0.08000000000000007,
+                       "end":  10.74,
+                       "tone":  "educational",
+                       "narration_summary":  "Pomegranates are delicious and a powerful tool for gut health, as their juice stimulates gut mucus production."
+                   },
+                   {
+                       "start":  11.120000000000001,
+                       "end":  21.9,
+                       "tone":  "educational",
+                       "narration_summary":  "This mucus fosters the growth of commensal bacteria, known as the guardian of metabolism, which plays a crucial role."
+                   },
+                   {
+                       "start":  21.9,
+                       "end":  31.499999999999993,
+                       "tone":  "educational",
+                       "narration_summary":  "This bacteria maintains a healthy metabolism, boosts the immune system, reduces inflammation, and research shows it stimulates the body."
+                   },
+                   {
+                       "start":  31.499999999999993,
+                       "end":  40.67999999999999,
+                       "tone":  "educational",
+                       "narration_summary":  "Commensal bacteria stimulates GLP1, a hormone regulating blood sugar and promoting fat loss, so let\u0027s unlock pomegranate power."
+                   },
+                   {
+                       "start":  40.83999999999999,
+                       "end":  52.23999999999999,
+                       "tone":  "inspirational",
+                       "narration_summary":  "By adding pomegranates to your diet, you can harness the power of commensal bacteria to support metabolism and maintain a healthy weight."
+                   }
+               ],
+    "stat_overlays":  [
+                          {
+                              "timestamp":  16.58,
+                              "text":  "Commensal Bacteria: Guardian of Metabolism",
+                              "duration":  3
+                          },
+                          {
+                              "timestamp":  33.779999999999994,
+                              "text":  "GLP1: Regulates Blood Sugar \u0026 Promotes Fat Loss",
+                              "duration":  3
+                          }
+                      ],
+    "captions_src":  "captions.json",
+    "highlight_keywords":  [
+                               "Pomegranate",
+                               "delicious",
+                               "powerful tool",
+                               "healthy gut",
+                               "well-being",
+                               "juice",
+                               "stimulates",
+                               "gut",
+                               "heavy mucus",
+                               "fosters growth",
+                               "commensure",
+                               "beneficiary",
+                               "gut bacteria",
+                               "guardian",
+                               "metabolism",
+                               "remarkable bacteria",
+                               "crucial role",
+                               "healthy metabolism",
+                               "boosting",
+                               "immune system",
+                               "reducing inflammation",
+                               "research",
+                               "GLP1",
+                               "hormone",
+                               "regulates",
+                               "blood sugar",
+                               "fat loss",
+                               "unlock",
+                               "power",
+                               "pomegranates",
+                               "incorporating",
+                               "diets",
+                               "harness",
+                               "support",
+                               "natural ability",
+                               "regulate",
+                               "healthy weight",
+                               "cup",
+                               "pomegranate seeds",
+                               "salads"
+                           ],
+    "outro":  {
+                  "type":  "video",
+                  "duration_seconds":  4.92
+              },
+    "broll_overlays":  [
+
+                       ],
+    "pip_events":  [
+                       {
+                           "timestamp":  1.2400000000000002,
+                           "duration":  6.0,
+                           "pip_format":  "pip",
+                           "search_query":  "Pomegranate gut health",
+                           "pip_description":  "Close-up of pomegranate fruit and seeds, then abstract gut health visuals.",
+                           "_approved":  true,
+                           "pip_source":  "visuals/broll_0.mp4"
+                       },
+                       {
+                           "timestamp":  14.24,
+                           "duration":  6.0,
+                           "pip_format":  "full",
+                           "search_query":  "Gut bacteria microbiome",
+                           "pip_description":  "Animated visuals of healthy gut bacteria thriving.",
+                           "_approved":  true,
+                           "pip_source":  "visuals/broll_1.mp4"
+                       },
+                       {
+                           "timestamp":  23.759999999999998,
+                           "duration":  6.0,
+                           "pip_format":  "pip",
+                           "search_query":  "Healthy metabolism body",
+                           "pip_description":  "Graphics showing body\u0027s metabolic processes or active people.",
+                           "_approved":  true,
+                           "pip_source":  "visuals/broll_2.mp4"
+                       },
+                       {
+                           "timestamp":  35.31999999999999,
+                           "duration":  7.0,
+                           "pip_format":  "full",
+                           "search_query":  "Blood sugar regulation",
+                           "pip_description":  "Animated representation of blood sugar regulation and fat loss.",
+                           "_approved":  true,
+                           "pip_source":  "visuals/broll_3.mp4"
+                       },
+                       {
+                           "timestamp":  44.23999999999999,
+                           "duration":  6.0,
+                           "pip_format":  "pip",
+                           "search_query":  "Pomegranate salad healthy",
+                           "pip_description":  "Hands adding pomegranate seeds to a salad or healthy meal.",
+                           "_approved":  true,
+                           "pip_source":  "visuals/broll_4.mp4"
+                       }
+                   ],
+    "zoom_events":  [
+                        {
+                            "timestamp_ms":  80,
+                            "duration_ms":  1400,
+                            "scale":  1.15
+                        },
+                        {
+                            "timestamp_ms":  18600,
+                            "duration_ms":  1400,
+                            "scale":  1.15
+                        },
+                        {
+                            "timestamp_ms":  38940,
+                            "duration_ms":  1400,
+                            "scale":  1.15
+                        }
+                    ],
+    "brand":  {
+                  "logo_src":  "logo.png",
+                  "show_logo_watermark":  true,
+                  "logo_position":  "top-left",
+                  "logo_size":  140
+              },
+    "suggested_cuts":  [
+                           {
+                               "start":  20.380000000000003,
+                               "end":  20.54,
+                               "reason":  "Long pause between sentences.",
+                               "confidence":  0.85
+                           },
+                           {
+                               "start":  26.819999999999993,
+                               "end":  26.97999999999999,
+                               "reason":  "Pause between benefits listed.",
+                               "confidence":  0.8
+                           },
+                           {
+                               "start":  38.16,
+                               "end":  38.31999999999999,
+                               "reason":  "Pause before a new thought/question.",
+                               "confidence":  0.9
+                           },
+                           {
+                               "start":  40.67999999999999,
+                               "end":  40.83999999999999,
+                               "reason":  "Pause after a question, before the call to action.",
+                               "confidence":  0.85
+                           }
+                       ],
+    "suggested_caption":  "Did you know the humble pomegranate is a powerhouse for your gut? 🍎✨ Its juice stimulates a \u0027heavy mucus\u0027 that fosters beneficial commensal bacteria – the guardians of your metabolism! 🦠💪 This remarkable bacteria boosts your immune system, reduces inflammation, and even helps produce GLP1, a hormone that regulates blood sugar and promotes fat loss! 📉🔥 Unlock this natural power by adding pomegranates to your diet. Try a cup of seeds in your salad today! 🥗💖 #PomegranatePower #GutHealth #MetabolismBoost #GLP1 #HealthyEating #FitMantra",
+    "hashtags":  "#PomegranatePower #GutHealth #MetabolismBoost #HealthyEating #FitMantra #NutritionTips #Wellness",
+    "suggested_title":  "Pomegranates: Your Gut\u0027s Secret Weapon for Metabolism \u0026 Fat Loss!",
+    "overall_mood":  "inspirational",
+    "capitalize_words":  [
+                             "POMEGRANATE",
+                             "GUT",
+                             "COMMENSURE",
+                             "METABOLISM",
+                             "IMMUNE SYSTEM",
+                             "INFLAMMATION",
+                             "GLP1",
+                             "HORMONE",
+                             "BLOOD SUGAR",
+                             "FAT LOSS",
+                             "DIETS",
+                             "HEALTHY WEIGHT",
+                             "Fit",
+                             "Mantra"
+                         ]
 }

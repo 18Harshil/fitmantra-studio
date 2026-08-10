@@ -93,7 +93,8 @@ Scene planning rules:
   - Use "full" format when the stock video should play full-screen without the speaker visible.
 - For each pip_event provide a search_query — a short 2-4 word phrase for Pexels stock video search. Ensure queries are relevant to FitMantra's brand: gut health, nutrition, healthy food, supplements, natural ingredients, active lifestyle, wellness. Do NOT search for generic or unrelated content.
 - overall_mood determines background music selection
-- Add 5-12 relevant highlight_keywords — these are attention-worthy words that will trigger zoom effects on the speaker
+- Add 25-45 highlight_keywords — these are attention-worthy words that will trigger zoom effects on the speaker. Include PLENTY of words so the caption highlights are dense and frequent. PRIORITIZE proper nouns and key facts: the speaker's name, country/city, profession/designation, medical credentials (e.g. "anesthesiologist", "surgeon"), and any concrete numbers, statistics, conditions, symptoms, treatments, and health/brand terms mentioned.
+- Add 10-20 relevant capitalize_words — important proper nouns and attention-grabbing words to render in CAPS (e.g. the speaker's name, country, her designation, or key claims). Pick words that appear verbatim in the transcript. Include the words "Fit" and "Mantra".
 - video total duration: {duration_seconds:.0f}s — plan scenes to cover the full duration
 
 Transcript:
@@ -162,9 +163,15 @@ Word timestamps (first 120 words for reference):
         for i in range(3):
             ts = dur * (i + 1) / 4
             result["pip_events"].append({"timestamp": round(ts, 1), "duration": 5, "pip_format": "pip", "search_query": "health wellness", "pip_description": "Generic health visual"})
-        # Use common words as highlight keywords
-        common_kw = ["health", "nutrition", "food", "body", "hormones", "insulin", "blood", "sugar", "heart", "risk"]
-        result["highlight_keywords"] = [w for w in common_kw if w in full_text.lower()][:8]
+        # Use common words as highlight keywords (expanded for density)
+        common_kw = ["health", "nutrition", "food", "body", "hormones", "insulin", "blood", "sugar", "heart", "risk",
+                     "pain", "doctor", "surgery", "hospital", "patient", "treatment", "medicine", "symptoms",
+                     "vitamin", "disease", "immune", "energy", "diet", "exercise", "weight", "sleep", "stress",
+                     "mental", "hormone", "thyroid", "diabetes", "obesity", "gut", "inflammation", "infection",
+                     "clinic", "research", "study", "result", "percent", "years", "women", "children", "india",
+                     "saudi", "fit", "mantra"]
+        result["highlight_keywords"] = [w for w in common_kw if w in full_text.lower()][:40]
+        result["capitalize_words"] = [w for w in common_kw if w in full_text.lower()][:15]
 
     # Save analysis
     analysis_path = output_dir / "analysis.json"

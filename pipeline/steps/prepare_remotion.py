@@ -13,7 +13,7 @@ from pathlib import Path
 from steps.fetch_visuals import fetch_brolls
 
 FFPROBE = "ffprobe"
-OUTRO_DURATION_SECONDS = 4.78
+OUTRO_DURATION_SECONDS = 4.92
 
 
 def _retry(desc: str, fn, attempts: int = 15, delay: float = 1.0):
@@ -137,12 +137,6 @@ def prepare_remotion(
     else:
         raise RuntimeError(f"{input_dst.name} corrupt after re-encode: {last_err}")
 
-    # Clean up old versioned inputs (keep current + the pre-versioning name)
-    for old in visuals_dir.glob("input_*.mp4"):
-        if old == input_dst:
-            continue
-        _safe_unlink(old)
-
     # Captions for @remotion/captions
     captions = [
         {
@@ -166,7 +160,7 @@ def prepare_remotion(
             shutil.copy(alt_logo, logo_src)
 
     # Force brand outro asset for every video
-    outro_dst = remotion_public_dir / "outro.mp4"
+    outro_dst = remotion_public_dir / "visuals" / "trimmed_with_fade.mp4"
     outro_src = (
         Path(__file__).resolve().parents[2]
         / "predefined-components"
@@ -176,6 +170,7 @@ def prepare_remotion(
     )
     if not outro_src.exists():
         raise FileNotFoundError(f"Required outro asset not found: {outro_src}")
+    outro_dst.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy(outro_src, outro_dst)
 
     # Get video duration using ffprobe (from input_dst — already converted)
@@ -268,6 +263,7 @@ def prepare_remotion(
             "fps": fps,
             "width": width,
             "height": height,
+            "video_filter": os.getenv("VIDEO_FILTER", "brightness(1.15) contrast(1.2)"),
         },
         "words": transcript["words"],
         "scenes": analysis.get("scenes", []),
@@ -304,6 +300,13 @@ def prepare_remotion(
     json_path = remotion_public_dir / "remotion_data.json"
     with open(json_path, "w") as f:
         json.dump(remotion_data, f, indent=2)
+
+    # Clean up old versioned inputs only after remotion_data.json is safely
+    # pointing at the new file (never delete a file the data still references).
+    for old in visuals_dir.glob("input_*.mp4"):
+        if old == input_dst:
+            continue
+        _safe_unlink(old)
 
     print(f"    ✔ remotion_data.json written")
     return json_path

@@ -157,12 +157,12 @@ export const FitMantraCaptions: React.FC<{
   const { fps } = useVideoConfig();
 
   const keywordSet = useMemo(
-    () => new Set(highlightKeywords.map(cleanWord)),
+    () => new Set(["fitmantra", "fit", "mantra", ...highlightKeywords.map(cleanWord)]),
     [highlightKeywords],
   );
 
   const capitalizeSet = useMemo(
-    () => new Set(capitalizeWords.map(cleanWord)),
+    () => new Set(["fitmantra", "fit", "mantra", ...capitalizeWords.map(cleanWord)]),
     [capitalizeWords],
   );
 
