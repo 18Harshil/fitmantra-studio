@@ -26,3 +26,7 @@ __pycache__/
 # No generated data
 pipeline/input/
 pipeline/output/
+remotion/public/captions*.json
+remotion/public/remotion_data.json
+studio/tsconfig.tsbuildinfo
+*.tsbuildinfo

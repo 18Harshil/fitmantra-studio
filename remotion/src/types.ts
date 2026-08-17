@@ -80,6 +80,8 @@ export interface RemotionData {
   captions_src: string;
   highlight_keywords: string[];
   capitalize_words: string[];
+  /** Vertical caption position: fraction of height to lift captions (negative = higher, positive = lower). Default 0. */
+  captions_offset?: number;
   outro: {
     type: "video" | "logo";
     duration_seconds: number;

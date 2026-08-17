@@ -161,20 +161,22 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
 
 
 
-      {/* Layer 2c — Logo top-left */}
-      <Img
-        src={staticFile("logo.png")}
-        style={{
-          position: "absolute",
-          top: 70,
-          left: 50,
-          width: Math.round(height * 0.11),
-          height: Math.round(height * 0.11),
-          objectFit: "contain",
-          zIndex: 10,
-          pointerEvents: "none",
-        }}
-      />
+      {/* Layer 2c — Logo top-right (hidden during outro) */}
+      {frame < bodyFrames && (
+        <Img
+          src={staticFile("logo.png")}
+          style={{
+            position: "absolute",
+            top: Math.round(height * 0.0315),
+            right: Math.round(height * 0.0315),
+            width: Math.round(height * 0.11),
+            height: Math.round(height * 0.11),
+            objectFit: "contain",
+            zIndex: 10,
+            pointerEvents: "none",
+          }}
+        />
+      )}
 
       {/* Layer 3 — Visual polish gradients */}
       <AbsoluteFill
@@ -199,6 +201,7 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
           highlightKeywords={data.highlight_keywords}
           capitalizeWords={data.capitalize_words}
           pipActive={!!activePip}
+          verticalOffset={data.captions_offset ?? 0}
         />
       ) : (
         <FitMantraCaptions
@@ -206,6 +209,7 @@ export const MainVideo: React.FC<Props> = ({ data }) => {
           highlightKeywords={data.highlight_keywords}
           capitalizeWords={data.capitalize_words}
           pipActive={!!activePip}
+          verticalOffset={data.captions_offset ?? 0}
         />
       )}
 

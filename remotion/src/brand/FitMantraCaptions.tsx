@@ -14,14 +14,14 @@ import {
   type Caption,
   type TikTokPage,
 } from "@remotion/captions";
-import { loadFont } from "@remotion/google-fonts/Montserrat";
+import { loadFont } from "@remotion/google-fonts/Poppins";
 
 const { fontFamily } = loadFont("normal", {
-  weights: ["800", "900"],
+  weights: ["400", "700", "800"],
   subsets: ["latin"],
 });
 
-const LIME = "#00FF00";
+const LIME = "#90EE90";
 const WHITE = "#FFFFFF";
 const DIM_WHITE = "rgba(255,255,255,0.78)";
 
@@ -62,7 +62,8 @@ const Token: React.FC<{
             display: "inline-block",
             transform: `scale(${pop})`,
             color: LIME,
-            fontSize: "1.1em",
+            fontSize: "1.65em",
+            fontWeight: 800,
           }}
         >
           {textContent}
@@ -77,6 +78,7 @@ const Token: React.FC<{
         display: "inline",
         opacity: fadeIn,
         color: "#FFFFFF",
+        fontWeight: 400,
         whiteSpace: "pre",
       }}
     >
@@ -85,21 +87,26 @@ const Token: React.FC<{
   );
 };
 
-const CaptionPage: React.FC<{ page: TikTokPage; keywordSet: ReadonlySet<string>; capitalizeSet: ReadonlySet<string>; shiftUp?: boolean; pipActive?: boolean }> = ({
+const CaptionPage: React.FC<{ page: TikTokPage; keywordSet: ReadonlySet<string>; capitalizeSet: ReadonlySet<string>; shiftUp?: boolean; pipActive?: boolean; cutoffMs?: number; verticalOffset?: number }> = ({
   page,
   keywordSet,
   capitalizeSet,
   shiftUp = false,
   pipActive = false,
+  cutoffMs,
+  verticalOffset = 0,
 }) => {
   const frame = useCurrentFrame();
   const { fps, height } = useVideoConfig();
   const absoluteMs = page.startMs + (frame / fps) * 1000;
 
+  if (cutoffMs !== undefined && absoluteMs > cutoffMs) return null;
+
   const pad = Math.round(height * 0.21);
-  const pipPad = Math.round(height * 0.08);
   const padShifted = Math.round(height * 0.42);
+  const offsetPx = Math.round(-height * verticalOffset);
   const baseFont = Math.round(height * 0.06);
+  const normalFont = Math.round(height * 0.04);
   const containerMaxW = Math.round(height * 0.54);
   const pipMaxW = Math.round(height * 0.24);
   const pipPadLeft = Math.round(height * 0.03);
@@ -110,7 +117,7 @@ const CaptionPage: React.FC<{ page: TikTokPage; keywordSet: ReadonlySet<string>;
       style={{
         alignItems: pipActive ? "flex-start" : "center",
         justifyContent: "flex-end",
-        paddingBottom: pipActive ? pipPad : (shiftUp ? padShifted : pad),
+        paddingBottom: (shiftUp ? padShifted : pad) + offsetPx,
         paddingLeft: pipActive ? pipPadLeft : 0,
         pointerEvents: "none",
       }}
@@ -120,8 +127,8 @@ const CaptionPage: React.FC<{ page: TikTokPage; keywordSet: ReadonlySet<string>;
           fontFamily,
           textAlign: "center",
           maxWidth: pipActive ? pipMaxW : containerMaxW,
-          fontWeight: 900,
-          fontSize: baseFont,
+          fontWeight: 400,
+          fontSize: normalFont,
           lineHeight: 1.1,
           padding: "0px 8px",
           letterSpacing: -1.5,
@@ -151,7 +158,9 @@ export const FitMantraCaptions: React.FC<{
   capitalizeWords?: string[];
   shiftUp?: boolean;
   pipActive?: boolean;
-}> = ({ captionsSrc = "captions.json", highlightKeywords = [], capitalizeWords = [], shiftUp = false, pipActive = false }) => {
+  cutoffMs?: number;
+  verticalOffset?: number;
+}> = ({ captionsSrc = "captions.json", highlightKeywords = [], capitalizeWords = [], shiftUp = false, pipActive = false, cutoffMs, verticalOffset = 0 } = {}) => {
   const [captions, setCaptions] = useState<Caption[] | null>(null);
   const [handle] = useState(() => delayRender("Loading captions"));
   const { fps } = useVideoConfig();
@@ -206,7 +215,7 @@ export const FitMantraCaptions: React.FC<{
             durationInFrames={dur}
             layout="none"
           >
-            <CaptionPage page={page} keywordSet={keywordSet} capitalizeSet={capitalizeSet} shiftUp={shiftUp} pipActive={pipActive} />
+            <CaptionPage page={page} keywordSet={keywordSet} capitalizeSet={capitalizeSet} shiftUp={shiftUp} pipActive={pipActive} cutoffMs={cutoffMs} verticalOffset={verticalOffset} />
           </Sequence>
         );
       })}

@@ -17,6 +17,8 @@ export default function Page() {
   const [mounted, setMounted] = useState(false)
   const [editIndex, setEditIndex] = useState<number | null>(null)
   const [previewKey, setPreviewKey] = useState(0)
+  const [videoFilter, setVideoFilter] = useState("brightness(1.15) contrast(1.2)")
+  const [captionsOffset, setCaptionsOffset] = useState(0)
 
   const [uploading, setUploading] = useState(false)
   const [uploadStatus, setUploadStatus] = useState("")
@@ -60,6 +62,28 @@ export default function Page() {
   }
 
   useEffect(() => { loadBrolls() }, [])
+
+  async function loadVideoSettings() {
+    try {
+      const res = await fetch("/api/video/settings")
+      const d = await res.json()
+      setVideoFilter(d.video_filter ?? "brightness(1.15) contrast(1.2)")
+      setCaptionsOffset(d.captions_offset ?? 0)
+    } catch {}
+  }
+
+  async function saveVideoSettings(vf: string, co: number) {
+    try {
+      await fetch("/api/video/settings", {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ video_filter: vf, captions_offset: co }),
+      })
+      setPreviewKey(k => k + 1)
+    } catch {}
+  }
+
+  useEffect(() => { loadVideoSettings() }, [mounted])
 
   useEffect(() => {
     fetch(`${PIPELINE_URL}/api/status`).then(r => r.json()).then(s => {
@@ -337,6 +361,46 @@ export default function Page() {
               )}
             </div>
           )}
+        </div>
+
+        {/* Video Adjustments */}
+        <div style={{ background: "#111", borderRadius: 12, padding: 16, marginBottom: 16, border: "1px solid #333", flexShrink: 0 }}>
+          <h3 style={{ margin: "0 0 12px 0", fontSize: 14, color: "#aaa" }}>Video Adjustments</h3>
+          <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
+            <div>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
+                <label style={{ fontSize: 12, color: "#aaa" }}>Brightness</label>
+                <span style={{ fontSize: 11, color: "#666" }}>{videoFilter === "none" ? "Off" : "On"}</span>
+              </div>
+              <select
+                value={videoFilter}
+                onChange={e => { setVideoFilter(e.target.value); saveVideoSettings(e.target.value, captionsOffset) }}
+                style={{ ...inputStyle, width: "100%" }}
+              >
+                <option value="brightness(1.15) contrast(1.2)">Default (brighter + contrast)</option>
+                <option value="none">No adjustment</option>
+                <option value="brightness(1.0) contrast(1.0)">Flat (no filter)</option>
+                <option value="brightness(1.3) contrast(1.25)">Extra bright</option>
+              </select>
+            </div>
+            <div>
+              <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 6 }}>
+                <label style={{ fontSize: 12, color: "#aaa" }}>Captions Position</label>
+                <span style={{ fontSize: 11, color: "#666" }}>{captionsOffset > 0 ? `Lower ${Math.round(captionsOffset * 100)}%` : captionsOffset < 0 ? `Higher ${Math.round(-captionsOffset * 100)}%` : "Default"}</span>
+              </div>
+              <input
+                type="range" min="-0.6" max="0.25" step="0.01"
+                value={captionsOffset}
+                onChange={e => { const v = parseFloat(e.target.value); setCaptionsOffset(v) }}
+                onMouseUp={e => saveVideoSettings(videoFilter, parseFloat((e.target as HTMLInputElement).value))}
+                onTouchEnd={e => saveVideoSettings(videoFilter, parseFloat((e.target as HTMLInputElement).value))}
+                style={{ width: "100%" }}
+              />
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: "#555" }}>
+                <span>Higher</span><span>Default</span><span>Lower</span>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Upload Broll */}

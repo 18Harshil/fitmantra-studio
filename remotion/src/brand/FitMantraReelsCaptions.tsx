@@ -98,14 +98,15 @@ const CaptionPage: React.FC<{
   capitalizeSet: ReadonlySet<string>;
   shiftUp?: boolean;
   pipActive?: boolean;
-}> = ({ page, keywordSet, capitalizeSet, shiftUp = false, pipActive = false }) => {
+  verticalOffset?: number;
+}> = ({ page, keywordSet, capitalizeSet, shiftUp = false, pipActive = false, verticalOffset = 0 }) => {
   const frame = useCurrentFrame();
   const { fps, height } = useVideoConfig();
   const absoluteMs = page.startMs + (frame / fps) * 1000;
 
   const pad = Math.round(height * 0.27);
-  const pipPad = Math.round(height * 0.12);
   const padShifted = Math.round(height * 0.39);
+  const offsetPx = Math.round(-height * verticalOffset);
   const normalFont = Math.round(height * 0.035);
   const containerMaxW = Math.round(height * 0.55);
   const pipMaxW = Math.round(height * 0.30);
@@ -115,7 +116,7 @@ const CaptionPage: React.FC<{
       style={{
         alignItems: pipActive ? "flex-start" : "center",
         justifyContent: "flex-end",
-        paddingBottom: pipActive ? pipPad : (shiftUp ? padShifted : pad),
+        paddingBottom: (shiftUp ? padShifted : pad) + offsetPx,
         paddingLeft: pipActive ? 40 : 0,
         paddingRight: pipActive ? Math.round(height * 0.35) : 0,
         pointerEvents: "none",
@@ -156,7 +157,8 @@ export const FitMantraReelsCaptions: React.FC<{
   capitalizeWords?: string[];
   shiftUp?: boolean;
   pipActive?: boolean;
-}> = ({ captionsSrc = "captions.json", highlightKeywords = [], capitalizeWords = [], shiftUp = false, pipActive = false }) => {
+  verticalOffset?: number;
+}> = ({ captionsSrc = "captions.json", highlightKeywords = [], capitalizeWords = [], shiftUp = false, pipActive = false, verticalOffset = 0 }) => {
   const [captions, setCaptions] = useState<Caption[] | null>(null);
   const [handle] = useState(() => delayRender("Loading captions"));
   const { fps } = useVideoConfig();
@@ -211,7 +213,7 @@ export const FitMantraReelsCaptions: React.FC<{
             durationInFrames={dur}
             layout="none"
           >
-            <CaptionPage page={page} keywordSet={keywordSet} capitalizeSet={capitalizeSet} shiftUp={shiftUp} pipActive={pipActive} />
+            <CaptionPage page={page} keywordSet={keywordSet} capitalizeSet={capitalizeSet} shiftUp={shiftUp} pipActive={pipActive} verticalOffset={verticalOffset} />
           </Sequence>
         );
       })}

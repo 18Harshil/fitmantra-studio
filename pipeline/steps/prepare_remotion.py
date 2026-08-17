@@ -270,6 +270,7 @@ def prepare_remotion(
         "stat_overlays": analysis.get("stat_overlays", []),
         "captions_src": "captions.json",
         "highlight_keywords": analysis.get("highlight_keywords", []),
+        "captions_offset": 0.0,
         "outro": {
             "type": "video",
             "duration_seconds": OUTRO_DURATION_SECONDS,
