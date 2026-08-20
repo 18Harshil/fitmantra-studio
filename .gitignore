@@ -23,6 +23,9 @@ __pycache__/
 !studio/public/logo.png
 !pipeline/.env.example
 
+# Keep the brand outro asset
+!predefined-components/git-test-remo-1/src/outro.mp4
+
 # No generated data
 pipeline/input/
 pipeline/output/
